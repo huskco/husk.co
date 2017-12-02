@@ -12,14 +12,10 @@ class Home extends React.Component {
         <Intro>
           <h1>Craft the future</h1>
           <h2>We believe it takes a different kind of company to make a different kind of software</h2>
-        </Intro>
+          <p>Coming soon</p>
 
-        <section className="home-work">
-          <h2>Coming soon</h2>
-          <p>
-            iOS
-          </p>
-        </section>
+          <img className="home-peek" src="/source/images/peek.png" />
+        </Intro>
       </BodyClass>
     );
   }

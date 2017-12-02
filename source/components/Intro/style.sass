@@ -2,10 +2,10 @@
 
 .intro
   align-items: center
-  background-color: $white
   background-position: center center
   background-repeat: no-repeat
   background-size: cover
+  color: $muted-color
   display: flex
   height: 75vh
   transition: transform $base-timing
@@ -21,8 +21,8 @@
     transform-origin: $base-spacing 100%
     z-index: 2
 
-    @media (min-width: $break-medium)
-      padding-right: 20%
+    @media (min-width: $break-small)
+      padding-right: 30vw
 
   h1
     color: $light-brown
