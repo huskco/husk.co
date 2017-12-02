@@ -1,0 +1,84 @@
+@import "bourbon"
+
+// Colors
+$black: #000
+$white: #fff
+$offwhite: #f6f4f3
+$brown: #33312f
+$light-brown: #4E4B48
+$red: #f15729
+$lightest-gray: #f3f3f3
+$light-gray: #ddd
+$gray: #bbb
+$blue: #53B1E1
+$yellow: #f4da5c
+$green: #bfd849
+$magenta: #c76baa
+$cyan: #66ddd2
+
+$background-color: $offwhite
+$text-color: $brown
+$muted-color: mix($text-color, $background-color)
+$link-color: $blue
+$link-hover: shade($blue, 15%)
+$logo-color: $offwhite
+$highlight-color: rgba(mix($yellow, $red, 95%), 0.25)
+
+$base-shadow: 0 1rem 0.33rem -0.75rem rgba(#000, 0.1), 0 0.33rem 1rem rgba(#000, 0.25)
+$dark-shadow: 0 1rem 0.33rem -0.75rem rgba(#000, 0.25), 0 0.33rem 1rem rgba(#000, 0.25)
+$large-shadow: 0 1rem 1rem -0.5rem rgba(#000, 0.1), 0 1rem 3rem rgba(#000, 0.1)
+$small-shadow: 0 0.5rem 0.33rem -0.33rem rgba($black, 0.1), 0 0.25rem 1rem rgba($black, 0.1)
+$smallest-shadow: 0 0.25rem 0.25rem -0.25rem rgba($black, 0.33), 0 0.1rem 0.25rem rgba($black, 0.1)
+
+// Layout
+$break-small: 600px
+$break-medium: 1000px
+$break-large: 1400px
+
+// Fonts
+$sans-serif: -apple-system, BlinkMacSystemFont, sans-serif
+$heading-font: "TiemposHeadline", Georgia, serif
+$font-weight-light: 200
+$font-weight-regular: 400
+$font-weight-medium: 600
+$font-weight-bold: 800
+
+// Sizes
+$base-font-size: calc(1rem + 0.15 * (100vw - 25em) / 100)
+$small-font-size: calc(#{$base-font-size} * 0.85)
+$smallest-font-size: calc(#{$base-font-size} * 0.66
+$large-font-size: 1.25rem
+$base-spacing: 2rem
+$small-spacing: $base-spacing / 2
+$smallest-spacing: $base-spacing / 4
+$large-spacing: $base-spacing * 2
+$base-border-radius: 0.25rem
+
+// Sections
+$footer-height: 5rem
+
+// Z-indeces
+$z-base: 1
+$z-header: 5
+
+// Animations
+$base-timing: 250ms
+$fast-timing: $base-timing / 2
+$slow-timing: $base-timing * 2
+
+@mixin container
+  +clearfix
+  margin: 0 auto
+  max-width: $break-medium
+  padding: $large-spacing $base-spacing
+
+  @media (min-width: $break-medium)
+    padding-left: $large-spacing
+    padding-right: $large-spacing
+
+@mixin svg-fill($color)
+  path,
+  polygon,
+  g,
+  circle
+    fill: $color
