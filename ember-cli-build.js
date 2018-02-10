@@ -4,7 +4,10 @@ const GlimmerApp = require('@glimmer/application-pipeline').GlimmerApp;
 
 module.exports = function(defaults) {
   let app = new GlimmerApp(defaults, {
-    // Add options here
+    sassOptions: {
+      extension: 'sass',
+      includePaths: ['node_modules/bourbon/core']
+    }
   });
 
   return app.toTree();
