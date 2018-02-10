@@ -1,0 +1,10 @@
+.intro.intro-home
+  height: calc(100vh - #{$footer-height})
+
+  .home-peek
+    +position(absolute, 50% 5vw null null)
+    transform: translateY(-50%)
+    width: 20vw
+
+    @media (max-width: $break-medium)
+      display: none

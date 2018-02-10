@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title>Husk</title>
     <meta name="description" content="">
-    <link rel="icon" type="image/png" href="/source/images/favicon.png" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
 
     {{content-for "head"}}
 
@@ -15,7 +15,7 @@
 
     {{content-for "head-footer"}}
   </head>
-  <body>
+  <body class="{{content-for 'bodyClass'}}">
     {{content-for "body"}}
 
     <div id="app"></div>
