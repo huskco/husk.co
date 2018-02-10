@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'joshuaogle',
+    modulePrefix: 'husk',
     environment
   };
 

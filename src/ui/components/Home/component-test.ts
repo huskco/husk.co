@@ -3,11 +3,11 @@ import { setupRenderingTest } from '@glimmer/test-helpers';
 
 const { module, test } = QUnit;
 
-module('Component: Joshuaogle', function(hooks) {
+module('Component: Home', function(hooks) {
   setupRenderingTest(hooks);
 
   test('it renders', async function(assert) {
-    await this.render(hbs`<Joshuaogle />`);
+    await this.render(hbs`<Home />`);
     assert.equal(this.containerElement.textContent, 'Welcome to Glimmer!\n');
   });
 });

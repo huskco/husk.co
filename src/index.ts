@@ -14,6 +14,6 @@ app.registerInitializer({
   }
 });
 
-app.renderComponent('Joshuaogle', containerElement, null);
+app.renderComponent('Home', containerElement, null);
 
 app.boot();
