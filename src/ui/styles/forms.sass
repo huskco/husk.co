@@ -1,0 +1,35 @@
+fieldset
+  border: 0
+  margin-bottom: $base-spacing
+  padding: 0
+
+label
+  @extend %small
+  display: block
+  margin-bottom: $smallest-spacing
+  padding-left: $smallest-spacing
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+textarea
+  border: 1px solid $powder-dark
+  border-radius: $base-border-radius
+  height: 2.5rem
+  font-size: 1rem
+  font-weight: $font-weight-light
+  padding: 0.5rem 1rem
+  width: 100%
+
+  &::placeholder
+    color: $muted-color
+
+.flex-field
+  display: flex
+
+  > *
+    margin-right: $small-spacing
+
+    &:last-child
+      margin-right: 0

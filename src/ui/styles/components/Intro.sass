@@ -3,34 +3,51 @@
   background-position: center center
   background-repeat: no-repeat
   background-size: cover
-  color: $muted-color
-  display: flex
-  height: 75vh
-  transition: transform $base-timing
+  height: calc(100vh - #{$footer-height})
   z-index: 1
+
+  @media (min-width: $break-medium) and (min-height: 740px)
+    display: flex
 
   .intro-content
     +container
-    animation: rise 1s ease-in-out
-    margin: $large-spacing auto
-    padding: $large-spacing $base-spacing
+    padding: calc(#{$header-height} + #{$large-spacing}) $base-spacing $large-spacing $base-spacing
     position: relative
     flex: 1
-    transform-origin: $base-spacing 100%
     z-index: 2
 
-    @media (min-width: $break-small)
-      padding-right: 30vw
+    .intro-content-right
+      display: none
 
-  h1
-    color: $light-brown
-    margin-bottom: $smallest-spacing
+    @media (min-width: $break-medium) and (min-height: 740px)
+      display: flex
 
-  h2
-    color: $muted-color
-    font-weight: $font-weight-light
+      .intro-content-left,
+      .intro-content-right
+        display: flex
+        flex: 1
+        flex-direction: column
+        justify-content: center
 
-  p
-    font-size: 1.1rem
-    line-height: 1.33
-    margin: 0
+  .intro-header
+    margin-bottom: $base-spacing
+
+    &::after
+      content: ""
+      clear: both
+      display: block
+
+    .appicon
+      float: left
+      margin-right: $base-spacing
+
+    h1
+      padding-top: $small-spacing
+
+  &.intro-Villains
+    form
+      margin-top: $base-spacing
+
+    h1,
+    .button
+      color: $majesty-base

@@ -1,18 +1,20 @@
 .button
-  background-color: tint($offwhite, 33%)
-  border: none
+  background-color: $white
+  border: $base-border
   border-radius: $base-border-radius
   box-shadow: $small-shadow
-  color: $light-brown
+  color: $link-color
+  cursor: pointer
   display: inline-block
-  font-weight: $font-weight-regular
+  font-size: $small-font-size
+  font-weight: $font-weight-light
   line-height: 2
   padding: .2em 1em .25em
   text-shadow: none
   transition: color $fast-timing, transform $fast-timing, box-shadow $base-timing
 
   &:hover
-    color: $blue
+    color: $link-hover
 
   &:active
     transform: translateY(0.1rem)

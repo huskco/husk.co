@@ -1,10 +1,13 @@
 @import "bourbon"
+@import "colors"
 @import "variables"
 @import "fonts"
 @import "animations"
+@import "forms"
 @import "buttons"
 @import "section"
 @import "typography"
+@import "appicon"
 @import "components/*"
 @import "pages/*"
 
@@ -21,6 +24,7 @@ html
   transition: background-color $base-timing
 
 body
+  color: $text-color
   font-family: $sans-serif
   font-weight: $font-weight-light
   margin: 0

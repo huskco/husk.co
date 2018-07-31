@@ -5,18 +5,26 @@ h4
   font-family: $heading-font
   font-weight: $font-weight-medium
   letter-spacing: -0.005em
-  line-height: 1.4
   margin: 0 0 $small-spacing
 
 h1
-  font-size: 3rem
+  font-size: 36px
+  line-height: 40px
 
 h2
-  color: $red
-  font-size: 1.75rem
+  color: $gratitude-base
+  font-size: 30px
+  line-height: 36px
 
 h3
-  font-size: 1.25rem
+  font-size: 24rem
+  line-height: 32px
+
+.subtitle
+  @extend %small
+  line-height: 1
+  margin-top: -$small-spacing
+  text-transform: none
 
 ul
   list-style: none
@@ -60,9 +68,8 @@ svg
 
 %small
   color: $muted-color
-  font-size: $small-font-size
+  font-size: $smallest-font-size
   font-weight: $font-weight-medium
-  opacity: 0.66
   text-transform: uppercase
 
 mark
@@ -101,13 +108,13 @@ pre
 
   .nc,
   .s
-    color: shade($green, 25%)
+    color: $flora-base
 
   .nb
-    color: $blue
+    color: $columbine-base
 
   .m
-    color: $cyan
+    color: $glacier-base
 
   .na
-    color: $magenta
+    color: $pricklypear-base
