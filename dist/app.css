@@ -29,7 +29,7 @@
 
 fieldset {
   border: 0;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
   padding: 0; }
 
 label {
@@ -87,17 +87,12 @@ textarea {
 section {
   margin: 0 auto;
   max-width: 800px;
-  padding: 1rem; }
+  padding: 1.5rem; }
   .container::after,
   section::after {
     clear: both;
     content: "";
     display: block; }
-  @media (min-width: 800px) {
-    .container,
-    section {
-      padding-left: 1.5rem;
-      padding-right: 1.5rem; } }
 
 h1,
 h2,
@@ -235,7 +230,7 @@ pre {
   right: 0;
   bottom: auto;
   left: 0;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   z-index: 5; }
   .site-header::after {
     clear: both;
@@ -262,7 +257,7 @@ pre {
   .intro .intro-content {
     margin: 0 auto;
     max-width: 800px;
-    padding: 1rem;
+    padding: 1.5rem;
     padding: calc(72px + 1.5rem) 1rem 1.5rem 1rem;
     position: relative;
     flex: 1;
@@ -271,10 +266,6 @@ pre {
       clear: both;
       content: "";
       display: block; }
-    @media (min-width: 800px) {
-      .intro .intro-content {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem; } }
     .intro .intro-content .intro-content-right {
       display: none; }
     @media (min-width: 800px) and (min-height: 740px) {
@@ -297,11 +288,14 @@ pre {
       margin-right: 1rem; }
     .intro .intro-header h1 {
       padding-top: 0.5rem; }
-  .intro.intro-Villains form {
-    margin-top: 1rem; }
-  .intro.intro-Villains h1,
-  .intro.intro-Villains .button {
-    color: #A15CE6; }
+  .intro.intro-Villains {
+    background: url("/images/intro-villains-bg.svg") 60% center no-repeat;
+    background-size: contain; }
+    .intro.intro-Villains form {
+      margin-top: 1rem; }
+    .intro.intro-Villains h1,
+    .intro.intro-Villains .button {
+      color: #A15CE6; }
 
 footer {
   align-items: center;
