@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "TiemposHeadline";
+  src: url("/fonts/tiempos-headline-web-light.woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "TiemposHeadline";
+  src: url("/fonts/tiempos-headline-web-light-italic.woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TiemposHeadline";
+  src: url("/fonts/tiempos-headline-web-regular.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "TiemposHeadline";
+  src: url("/fonts/tiempos-headline-web-regular-italic.woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TiemposHeadline";
+  src: url("/fonts/tiempos-headline-web-semibold.woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "TiemposHeadline";
+  src: url("/fonts/tiempos-headline-web-black.woff");
+  font-weight: 800;
+}
+
+.font-serif {
+  font-family: "TiemposHeadline", serif;
+}
