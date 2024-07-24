@@ -15,7 +15,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,200..900&display=swap" rel="stylesheet" />
     </Head>
 
@@ -24,6 +24,9 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
         <Image src="/husk-logo-footer.svg" width="32" height="32" alt="Husk" />
         <span className="text-2xl font-serif ml-1 mt-1 font-semibold">Husk</span> 
       </Link>
+      <nav className="flex-1 text-right">
+        <Link href="/about">About</Link>
+      </nav>
     </header>
 
     <main>{children}</main>

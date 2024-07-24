@@ -1,7 +1,7 @@
 import * as React from "react";
 
 type Props = {
-  children?: React.ReactNode;
+  children?: React.ReactNode
 };
 
 const Badge = ({ children }: Props) => (

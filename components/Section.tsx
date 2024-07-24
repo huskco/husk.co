@@ -1,7 +1,8 @@
 import React, { ReactNode } from "react";
 
 type Props = {
-  children?: ReactNode;
+  children?: ReactNode,
+  title?: string
 };
 
 const Section = ({ children, title = "This is the default title" }: Props) => (
