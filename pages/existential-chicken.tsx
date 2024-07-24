@@ -8,7 +8,7 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const ExistentialChickenPage = () => (
   <Layout title="Existential Chicken | Husk">
-    <div className="max-w-6xl mx-auto px-12 py-36">
+    <div className="max-w-6xl mx-auto px-4 md:px-12 py-4 md:py-36">
       {/* Header Section */}
       <header className="text-center p-12">
         <Image src="/existential-chicken-logo.svg" width="64" height="64" alt="Existential Chicken Logo" className="mx-auto mb-4" />
@@ -29,7 +29,7 @@ const ExistentialChickenPage = () => (
 
       {/* Product Section */}
       <Section>
-        <div className="flex justify-center items-center mb-8 bg-white px-12 py-16 rounded-3xl shadow-xl text-neutral-700">
+        <div className="md:flex justify-center items-center mb-8 bg-white p-8 md:px-12 md:py-16 rounded-3xl shadow-xl text-neutral-700">
           <div className="flex-1">
             <h2 className="text-4xl font-bold font-serif mb-4">
               Who will<br/>crack first?
@@ -97,16 +97,16 @@ const ExistentialChickenPage = () => (
       {/* How to Play Section */}
       <Section>
         <h2 className="text-3xl font-serif mb-8 text-center">How do you play?</h2>
-        <div className="flex justify-center items-center space-x-4 font-serif font-medium text-sm">
-          <div className="flex-1 bg-neutral-200 p-2 rounded-xl text-center text-neutral-700">
+        <div className="md:flex justify-center items-center font-serif font-medium text-sm">
+          <div className="m-4 flex-1 bg-neutral-200 p-2 rounded-xl text-center text-neutral-700">
             <Image src="/existential-chicken-steps-1.svg" width="350" height="350" alt="Step 1"/>
             <p className="text-neutral-700 p-4 pt-0">Draw a card and ask the question</p>
           </div>
-          <div className="flex-1 bg-neutral-200 p-2 rounded-xl text-center">
+          <div className="m-4 flex-1 bg-neutral-200 p-2 rounded-xl text-center">
             <Image src="/existential-chicken-steps-2.svg" width="350" height="350" alt="Step 2"/>
             <p className="text-neutral-700 p-4 pt-0">Answer & get a point or you're "cracked"</p>
           </div>
-          <div className="flex-1 bg-neutral-200 p-2 rounded-xl text-center">
+          <div className="m-4 flex-1 bg-neutral-200 p-2 rounded-xl text-center">
             <Image src="/existential-chicken-steps-3.svg" width="350" height="350" alt="Step 3"/>
             <p className="text-neutral-700 p-4 pt-0">The player with the most points wins</p>
           </div>

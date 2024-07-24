@@ -5,30 +5,30 @@ import Section from "../components/Section";
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <Section>
-      <h1 className='text-3xl font-serif mb-12'>Small projects from Joshua & Lesley Ogle</h1>
+  <Layout title="Home | Husk">
+    <div className="min-h-full md:flex justify-center items-center">
+      <Section>
+        <div className="md:flex justify-center items-center md:space-x-12 space-y-4">
+          <div className="flex-1">
+            <h1 className='text-5xl font-serif mb-4'>
+              Small projects from Lesley & Joshua Ogle
+            </h1>
+  
+            <p className="text-xl text-neutral-500">
+              Check out the first one
+            </p>
+          </div>
 
-      <div className="flex justify-center items-center mb-8 bg-white py-8 px-16 rounded-3xl shadow-xl text-neutral-700">
-        <div className="flex-1 text-center">
-          <Image src="/existential-chicken-logo.svg" width="64" height="64" alt="Existential Chicken Logo" className="mx-auto mb-4" />
-          <h2 className="text-6xl font-bold font-serif mb-4">
-            Existential Chicken
-          </h2>
-          <p className="text-3xl mb-12">
-            A philosophy game
-          </p>
-          <Link href="existential-chicken" className="text-lg font-medium text-blue-500">
-            Check it out
-            <ArrowRightIcon className="w-6 h-6 inline-block ml-2" />
+          <Link href="existential-chicken" className="flex-1 bg-green-900 rounded-3xl p-12 flex flex-col justify-center space-y-4">
+            <Image src="/existential-chicken-logo.svg" width="64" height="64" alt="Existential Chicken" className="fill-black" />
+ 
+            <span className="flex items-center justify-start text-4xl font-serif font-semibold text-yellow-500">
+              Existential Chicken
+            </span>
           </Link>
         </div>
-
-        <div className="flex-1">
-          <Image src="/existential-chicken-box.png" width="525" height="665" alt="Existential Chicken box & question cards" />
-        </div>
-      </div>
-    </Section>
+      </Section>
+    </div>
   </Layout>
 );
 

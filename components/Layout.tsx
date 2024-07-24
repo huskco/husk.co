@@ -9,7 +9,7 @@ type Props = {
 };
 
 const Layout = ({ children, title = "This is the default title" }: Props) => (
-  <div className="bg-neutral-100 min-h-screen">
+  <div className="bg-neutral-100 min-h-screen flex flex-col">
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
@@ -29,7 +29,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       </nav>
     </header>
 
-    <main>{children}</main>
+    <main className="flex-1">{children}</main>
 
     <footer className="px-12 py-8 flex stretch-content items-center text-neutral-500 text-xs font-medium">
       <div className="space-x-4 flex-1">
