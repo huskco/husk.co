@@ -114,11 +114,11 @@ const ExistentialChickenPage = () => (
       </Section>
 
       {/* FAQ Section */}
-      <section className="max-w-4xl p-12">
+      <section className="max-w-4xl mx-auto p-12">
         <h2 className="text-3xl font-serif mb-8 text-center">
           Frequently asked questions
         </h2>
-        <div className="mx-auto w-full max-w-lg divide-y divide-black/5 rounded-xl bg-neutral-200">
+        <div className="divide-y divide-black/5 rounded-xl bg-neutral-200">
           <Disclosure as="div" className="p-6" defaultOpen={true}>
             <DisclosureButton className="group flex w-full items-center justify-between">
               <span className="text-neutral-700 text-xl font-serif mb-2">
