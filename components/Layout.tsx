@@ -24,9 +24,6 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
         <Image src="/husk-logo-footer.svg" width="32" height="32" alt="Husk" />
         <span className="text-2xl font-serif ml-1 mt-1 font-semibold">Husk</span> 
       </Link>
-      <nav className="flex-1 text-right">
-        <Link href="/about">About</Link>
-      </nav>
     </header>
 
     <main className="flex-1">{children}</main>
@@ -42,6 +39,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <div className="space-x-4 flex-1 text-right">
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
+        <Link href="https://x.com/huskco">@huskco</Link>
       </div>
     </footer>
   </div>
