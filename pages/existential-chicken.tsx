@@ -95,7 +95,7 @@ const ExistentialChickenPage = () => (
       </Section>
 
       {/* How to Play Section */}
-      <Section>e
+      <Section>
         <h2 className="text-3xl font-serif mb-8 text-center">How do you play?</h2>
         <div className="md:flex justify-center items-center font-serif font-medium text-sm">
           <div className="m-4 flex-1 bg-neutral-200 p-2 rounded-xl text-center text-neutral-700">
