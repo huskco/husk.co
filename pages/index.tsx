@@ -23,8 +23,8 @@ const IndexPage = () => (
             </Link>
           </div>
 
-          <Link href="existential-chicken" className="flex-1 bg-gradient-to-br from-green-800 to-green-900 border border-green-950 rounded-3xl p-12 flex flex-col justify-center space-y-4">
-            <Image src="/existential-chicken-logo.svg" width="64" height="64" alt="Existential Chicken" className="fill-black" />
+          <Link href="existential-chicken" className="flex-1 bg-gradient-to-br from-green-900 to-green-950 border border-green-950 rounded-3xl p-12 flex flex-col justify-center space-y-4 text-center">
+            <Image src="/existential-chicken-logo.svg" width="64" height="64" alt="Existential Chicken" className="fill-black mx-auto" />
  
             <span className="flex items-center justify-start text-4xl font-serif font-semibold text-yellow-500">
               Existential Chicken

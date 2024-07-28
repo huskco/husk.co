@@ -11,13 +11,13 @@ const ExistentialChickenPage = () => (
     <div className="max-w-6xl mx-auto px-4 md:px-12 py-4 md:py-36">
       {/* Header Section */}
       <header className="text-center p-12">
-        <Image src="/existential-chicken-logo.svg" width="64" height="64" alt="Existential Chicken Logo" className="mx-auto mb-4" />
-        <h1 className="text-5xl font-bold mb-2 font-serif">
+        <Image src="/existential-chicken-logo.svg" width="64" height="64" alt="Existential Chicken Logo" className="size-24 mx-auto mb-4" />
+        <h1 className="text-6xl font-bold mb-2 font-serif">
           Existential
           <br/>
           Chicken
         </h1>
-        <p className="text-lg text-neutral-600">A philosophy game</p>
+        <p className="text-3xl text-neutral-600">A philosophy game</p>
       </header>
 
       {/* Introduction Section */}
@@ -31,7 +31,7 @@ const ExistentialChickenPage = () => (
       <Section>
         <div className="md:flex justify-center items-center mb-8 bg-white p-8 md:px-12 md:py-16 rounded-3xl shadow-xl text-neutral-700">
           <div className="flex-1">
-            <h2 className="text-4xl font-bold font-serif mb-4">
+            <h2 className="text-5xl font-bold font-serif mb-4">
               Who will<br/>crack first?
             </h2>
             <p className="mb-4">
@@ -45,13 +45,13 @@ const ExistentialChickenPage = () => (
               <Badge>4-12 players</Badge>
               <Badge>Ages 12+</Badge>
             </div>
-            <div className="bg-neutral-200 p-2 rounded-xl flex items-center inline-flex">
+            <div className="bg-neutral-100 p-2 border border-neutral-200 rounded-xl flex items-center inline-flex">
               <button className="bg-black text-white px-6 py-3 rounded-lg mr-2">Sold out</button>
-              <span className="p-2">$19.99</span>
+              <span className="p-2 text-neutral-700">$19.99</span>
             </div>
           </div>
 
-          <div className="flex-1">
+          <div className="flex-1 m-4">
             <Image src="/existential-chicken-box.png" width="525" height="665" alt="Existential Chicken box & question cards" />
           </div>
         </div>
@@ -59,13 +59,13 @@ const ExistentialChickenPage = () => (
 
       {/* Definition Section */}
       <Section>
-        <dl className="text-md max-w-xs mx-auto justify-center items-start text-left font-serif">
+        <dl className="text-lg max-w-md mx-auto justify-center items-start text-left font-serif">
           <dt className="space-x-4 text-neutral-900">
             <span className="text-bold">chicken</span>
             <span>/ˈtʃɪk.ɪn/</span>
             <span className="italic">noun</span>
           </dt>
-          <dd className="text-sm text-neutral-700 font-light mb-4">
+          <dd className="text-md text-neutral-700 font-light mb-4">
             a game where players challenge each other to see who can go furthest and not "chicken out"
           </dd>
         </dl>
