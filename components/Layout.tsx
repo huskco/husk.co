@@ -9,7 +9,7 @@ type Props = {
 };
 
 const Layout = ({ children, title = "This is the default title" }: Props) => (
-  <div className="bg-neutral-100 text-neutral-700 min-h-screen flex flex-col">
+  <div className="bg-warm-gray-500 text-warm-gray-700 min-h-screen flex flex-col">
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
@@ -28,7 +28,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
 
     <main className="flex-1">{children}</main>
 
-    <footer className="px-12 py-8 flex stretch-content items-center text-neutral-400 text-s font-medium">
+    <footer className="px-12 py-8 flex stretch-content items-center text-gray-400 text-s font-medium">
       <div className="space-x-4 flex-1">
         <span>Made by your friends in Colorado</span>
         <span>&copy; Husk, LLC</span>
@@ -37,9 +37,9 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
         <Image src="/../husk-logo-footer.svg" width="36" height="36" alt="Husk" />
       </Link>
       <div className="space-x-4 flex-1 text-right">
-        <Link className="hover:text-neutral-900" href="/">Home</Link>
-        <Link className="hover:text-neutral-900"  href="/about">About</Link>
-        <Link className="hover:text-neutral-900"  href="https://x.com/huskco">@huskco</Link>
+        <Link className="hover:text-warm-neutral-900" href="/">Home</Link>
+        <Link className="hover:text-warm-neutral-900"  href="/about">About</Link>
+        <Link className="hover:text-warm-neutral-900"  href="https://x.com/huskco">@huskco</Link>
       </div>
     </footer>
   </div>

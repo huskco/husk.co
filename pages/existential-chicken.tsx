@@ -7,7 +7,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const ExistentialChickenPage = () => (
-  <Layout title="Existential Chicken | Husk">
+  <Layout title="Existential Chicken - Husk">
     <div className="max-w-6xl mx-auto px-4 md:px-12 py-4 md:py-36">
       {/* Header Section */}
       <header className="text-center p-12">
