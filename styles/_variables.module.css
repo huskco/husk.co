@@ -1,0 +1,194 @@
+:root {
+  /* Colors */
+  --black: #000;
+  --white: #fff;
+  --neutral-900: #262322;
+  --neutral-800: #3D3734;
+  --neutral-700: #4D4743;
+  --neutral-600: #665F5A;
+  --neutral-500: #7F7973;
+  --neutral-400: #b2aca5;
+  --neutral-300: #D8D4CF;
+  --neutral-200: #F0EEEB;
+  --neutral-100: #F8F8F6;
+  --neutral-050: #FBFBF9;
+  --brown-900: #40241D;
+  --brown-800: #703B28;
+  --brown-700: #8B533A;
+  --brown-600: #A67254;
+  --brown-500: #C29574;
+  --brown-400: #DAB898;
+  --brown-300: #ECD2B3;
+  --brown-200: #F8E8D0;
+  --brown-100: #FBF4E7;
+  --yellow-900: #CC8B0A;
+  --yellow-800: #D9A516;
+  --yellow-700: #E5C12E;
+  --yellow-600: #F2DC49;
+  --yellow-500: #FFEF66;
+  --yellow-400: #FFF173;
+  --yellow-300: #FFF599;
+  --yellow-200: #FFF9BF;
+  --yellow-100: #FFFDE5;
+  --orange-900: #4D2F13;
+  --orange-800: #8C500F;
+  --orange-700: #B26809;
+  --orange-600: #D18515;
+  --orange-500: #F5A925;
+  --orange-400: #F9C763;
+  --orange-300: #FCD883;
+  --orange-200: #FEE9AC;
+  --orange-100: #FEF8E5; 
+  --red-900: #401621;
+  --red-800: #801325;
+  --red-700: #B72131;
+  --red-600: #DB3333;
+  --red-500: #F24B40;
+  --red-400: #FF8B75;
+  --red-300: #FFAB90;
+  --red-200: #FFD7C4;
+  --red-100: #FFF0E5;
+  --purple-900: #40193D;
+  --purple-800: #661D58;
+  --purple-700: #913576;
+  --purple-600: #AD4D88;
+  --purple-500: #CA6A9B;
+  --purple-400: #DF8FB0;
+  --purple-300: #EFAAC0;
+  --purple-200: #F9CAD4;
+  --purple-100: #FCEDEF;
+  --violet-900: #1C1433;
+  --violet-800: #2F1966;
+  --violet-700: #56319F;
+  --violet-600: #7448BE;
+  --violet-500: #9663DE;
+  --violet-400: #B689EB;
+  --violet-300: #D0ABF5;
+  --violet-200: #E5C9FB;
+  --violet-100: #F6F0FA;
+  --blue-900: #0F1633;
+  --blue-800: #162973;
+  --blue-700: #2945A9;
+  --blue-600: #3C5BCA;
+  --blue-500: #5379EB;
+  --blue-400: #8BA5F3;
+  --blue-300: #B3C5F9;
+  --blue-200: #D9E2FF;
+  --blue-100: #F1F4FE;
+  --cyan-900: #172133;
+  --cyan-800: #143E7A;
+  --cyan-700: #2363AB;
+  --cyan-600: #3384CC;
+  --cyan-500: #47A9EE;
+  --cyan-400: #73C6F4;
+  --cyan-300: #90DAF9;
+  --cyan-200: #B6ECFD;
+  --cyan-100: #DAF7FE;
+  --teal-900: #172B33;
+  --teal-800: #206473;
+  --teal-700: #3B99A2;
+  --teal-600: #56C2C2;
+  --teal-500: #77E2D8;
+  --teal-400: #99EDDE;
+  --teal-300: #B0F6E3;
+  --teal-200: #CCFCEA;
+  --teal-100: #E5FDF2;
+  --green-900: #2D4016;
+  --green-800: #4C7319;
+  --green-700: #74A32D;
+  --green-600: #94C342;
+  --green-500: #B6E35B;
+  --green-400: #CEEE83;
+  --green-300: #DFF69D;
+  --green-200: #EEFCBF;
+  --green-100: #F7FDDF;
+
+  /* Spacing */
+  --bigger: 1.4142; /* sqrt(2) */
+  --smaller: calc(1/var(--bigger));
+  --base-spacing: 1.5em;
+  --small-spacing: calc(var(--base-spacing) * var(--smaller));
+  --smaller-spacing: calc(var(--small-spacing) * var(--smaller));
+  --smallest-spacing: calc(var(--smaller-spacing) * var(--smaller));
+  --large-spacing: calc(var(--base-spacing) * var(--bigger));
+  --larger-spacing: calc(var(--large-spacing) * var(--bigger));
+
+  /* Breakpoints */
+  --break-small: 600px;
+  --break-medium: 1000px;
+  --break-large: 1400px;
+  --page-min-width: 30vw;
+  --page-preferred-width: 60ch;
+  --page-max-width: 90vw;
+  --page-width: clamp(var(--page-min-width), var(--page-preferred-width), var(--page-max-width));
+
+  /* Fonts */
+  --sans-serif: -apple-system, BlinkMacSystemFont, sans-serif;
+  --heading-font: "TiemposHeadline", Georgia, serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-black: 800;
+  --base-font-size: calc(0.66rem + 0.75vw);
+  --large-font-size: calc(var(--base-font-size) * var(--bigger));
+  --small-font-size: calc(var(--base-font-size) * var(--smaller));
+  --smallest-font-size: calc(var(--base-font-size) * var(--smaller));
+
+  /* Borders */
+  --small-border-radius: var(--smallest-spacing);
+  --base-border-radius: var(--smaller-spacing);
+  --surface-border-radius: var(--smaller-spacing);
+  --large-border-radius: var(--base-spacing);
+  --app-border-radius: calc(2/9 * 100%);
+
+  /* Timing */
+  --base-timing: 250ms;
+  --fast-timing: 100ms;
+  --slow-timing: 750ms;
+  --slowest-timing: 1500ms;
+  --base-easing: cubic-bezier(.60, 0, 0, 1);
+  --fast-easing: ease-out;
+  --motion-blur: blur(3px);
+
+  /* Elevations (from Material Design): */
+  --theme-shadow-rgb: 15, 13, 11;
+  --shadow-o-0: 0;
+  --shadow-o-u: 0.05;
+  --shadow-o-p: 0.075;
+  --shadow-o-a: 0.1;
+  --md-0: rgba(var(--theme-shadow-rgb), var(--shadow-o-0));
+  --md-u: rgba(var(--theme-shadow-rgb), var(--shadow-o-u)); /* Umbra */
+  --md-p: rgba(var(--theme-shadow-rgb), var(--shadow-o-p)); /* Penumbra */
+  --md-a: rgba(var(--theme-shadow-rgb), var(--shadow-o-a)); /* Ambient */
+  --shadow-none: var(--md-0),  var(--md-0),  var(--md-0);
+  /* Low */
+    --md-1-u: 0.05rem 0.075rem 0.1rem -0.1rem var(--md-u);
+    --md-1-p: 0.1rem 0.15rem 0.2rem -0.1rem var(--md-p);
+    --md-1-a: 0.25rem 0.33rem 0.5rem -0.1rem var(--md-a);
+    --shadow-low: var(--md-1-u), var(--md-1-p), var(--md-1-a);
+  /* Lowest */
+    --shadow-lowest: var(--md-1-u);
+  /* Medium */
+    --md-2-u: 0.1rem 0.15rem 0.2rem -0.1rem var(--md-u);
+    --md-2-p: 0.2rem 0.3rem 0.4rem -0.1rem var(--md-p);
+    --md-2-a: 0.5rem 0.75rem 1.0rem -0.1rem var(--md-a);
+    --shadow-medium: var(--md-2-u), var(--md-2-p), var(--md-2-a);
+  /* High */
+    --md-3-u: 0.4rem 0.6rem 0.8rem -0.5rem var(--md-u);
+    --md-3-p: 0.5rem 0.75rem 1.0rem -0.5rem var(--md-p);
+    --md-3-a: 1.25rem 1.75rem 2.5rem -0.5rem var(--md-a);
+  --shadow-high: var(--md-3-u), var(--md-3-p), var(--md-3-a);
+  --shadow-inset: inset var(--md-1-u), inset var(--md-1-p), inset var(--md-1-a);
+  --shadow-outline: 0 0 0 1px rgba(var(--theme-shadow-rgb), var(--shadow-o-u));
+
+  /* Theme */
+  --stark-rgb: 255, 255, 255;
+  --text-color: var(--neutral-700);
+  --theme-color-heading: var(--theme-color-bg-start);
+  --muted-color: rgba(0, 0, 0, 0.33);
+  --background-start: var(--neutral-100);
+  --background-end: var(--neutral-200);
+  --theme-action-color: var(--cyan-600);
+  --surface-opacity: 0.66;
+  --surface-opacity-hover: 0.75;
+}

@@ -5,7 +5,7 @@ type Props = {
 };
 
 const Badge = ({ children }: Props) => (
-  <span className="border-2 border-neutral-400 bg-transparent text-neutral-500 rounded-lg px-2 py-1 text-sm">
+  <span className="bg-yellow-100 bg-opacity-80 text-yellow-700 rounded-lg px-2 py-1 text-xs font-semibold text-nowrap">
     {children}
   </span>
 

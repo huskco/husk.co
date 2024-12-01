@@ -6,7 +6,7 @@ type Props = {
 };
 
 const Section = ({ children, title = "This is the default title" }: Props) => (
-  <section className="max-w-4xl px-12 py-24 mx-auto">
+  <section className="max-w-4xl py-24 mx-auto space-y-4">
     { children }
   </section>
 );
