@@ -12,11 +12,11 @@ const ExistentialChickenPage = () => (
   <Layout title="Existential Chicken - Husk">
     <Section>
       <div className="flex gap-4">
-        <div className="flex items-center justify-center md:w-2/3">
+        <div className="flex flex-col md:flex-row items-center justify-center md:w-2/3">
           <Area
             backgroundImage="/existential-chicken-thumbnail.jpg"
-            className='rounded-xl w-full h-full'
-          ></Area>
+            className='rounded-xl w-full h-full p-24'
+          >{''}</Area>
         </div>
         <div className="md:w-1/3 flex-1 justify-center items">
           <div className="space-y-4 p-6 py-8">
@@ -127,6 +127,7 @@ const ExistentialChickenPage = () => (
           src="/existential-chicken-question-example.jpg"
           width={1800}
           height={900}
+          alt="Does language shape our thoughts and limit what we can think about?"
         />
       </Area>
     </Section>
