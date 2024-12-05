@@ -5,7 +5,7 @@ type Props = {
   title?: string
 };
 
-const Section = ({ children, title = "This is the default title" }: Props) => (
+const Section = ({ children }: Props) => (
   <section className="max-w-4xl py-24 mx-auto space-y-4">
     { children }
   </section>

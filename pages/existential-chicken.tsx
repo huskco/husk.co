@@ -11,46 +11,39 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 const ExistentialChickenPage = () => (
   <Layout title="Existential Chicken - Husk">
     <Section>
-      <div className="flex gap-4">
-        <div className="flex flex-col md:flex-row items-center justify-center md:w-2/3">
-          <Area
-            backgroundImage="/existential-chicken-thumbnail.jpg"
-            className='rounded-xl w-full h-full p-24'
-          >{''}</Area>
-        </div>
-        <div className="md:w-1/3 flex-1 justify-center items">
-          <div className="space-y-4 p-6 py-8">
-            <h1 className="text-2xl font-semibold font-serif">
-              Existential Chicken
-            </h1>
+      <div className="flex-1 justify-center text-center">
+        <div className="space-y-8 p-6 py-8">
+          <h1 className="text-6xl font-semibold font-serif">
+            Existential Chicken
+          </h1>
 
-            <div className="text-sm">
-              <p className="mb-3">
-                Explore fifty-two of philosophy's toughest questions in a convenient card sized box
-                with this conversation game and maybe a little bit of wine
-                (in vino veritas, after all).
-                Find out what your friends really think about the nature of the universe and what really matters.
-              </p>
-              <p className="mb-4">
-                It is not a game about chickens.
-              </p>
-            </div>
+          <div className="text-lg">
+            <p className="mb-3">
+              Explore philosophy's toughest questions about the nature of the universe and what really matters
+              with this conversation game and maybe a little bit of wine (in vino veritas, after all).
+            </p>
+            <p className="mb-4">
+              It is not a game about chickens.
+            </p>
+          </div>
 
-            <div className="flex space-x-1">
-              <Badge>Ages 12+</Badge>
-              <Badge>15-30 mins</Badge>
-              <Badge>Up to 12 players</Badge>
-            </div>
+          <div className="flex space-x-2 justify-center">
+            <Badge>Ages 12+</Badge>
+            <Badge>15-30 mins</Badge>
+            <Badge>Up to 12 players</Badge>
           </div>
         </div>
       </div>
-    </Section>
-    
-    <Section>
+
+      <Area
+        backgroundImage="/existential-chicken-thumbnail.jpg"
+        className='rounded-2xl aspect-video'
+      >{''}</Area>
+
       <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-auto gap-4 items-stretch">
         <Area className="md:row-span-3 flex-1 relative flex flex-col">
           <p className="flex-1 text-left p-8 md:p-12 pb-2 md:pb-2 text-2xl italic font-serif text-white">
-            Dare your closest friends to see who can answer the toughest questions in the universe
+            Challenge your friends to see who can answer the toughest questions in the universe
           </p>
           <Image
             src="/existential-chicken-dare.jpg"
@@ -102,25 +95,33 @@ const ExistentialChickenPage = () => (
     {/* How to Play Section */}
     <Section>
       <h2 className="text-3xl font-serif mb-8 text-center">How do you play?</h2>
-      <div className="md:flex justify-center items-center font-serif font-medium text-md">
-        <div className="m-2 flex-1 bg-stone-100 p-2 rounded-xl text-center text-stone-700">
+      <div className="md:flex justify-center items-stretch font-serif font-medium text-lg">
+        <div className="m-2 p-4 flex flex-col items-center flex-1 bg-stone-100 rounded-xl text-center">
           <Image src="/existential-chicken-steps-1.svg" width="350" height="350" alt="Step 1"/>
-          <p className="text-stone-700 p-4 pt-0">Draw the top card and ask the question clearly</p>
+          <p className="text-stone-700 px-4 pb-4">
+            Draw the top card and ask the question clearly
+          </p>
         </div>
-        <div className="m-2 flex-1 bg-stone-100 p-2 rounded-xl text-center">
+
+        <div className="m-2 p-4 flex flex-col items-center flex-1 bg-stone-100 rounded-xl text-center">
           <Image src="/existential-chicken-steps-2.svg" width="350" height="350" alt="Step 2"/>
-          <p className="text-stone-700 p-4 pt-0">Get a point for a thoughtful answer eor you're "cracked"</p>
+          <p className="text-stone-700 px-4 pb-4">
+            Get a point for a thoughtful answer eor you're "cracked"
+          </p>
         </div>
-        <div className="m-2 flex-1 bg-stone-100 p-2 rounded-xl text-center">
+
+        <div className="m-2 p-4 flex flex-col items-center flex-1 bg-stone-100 rounded-xl text-center">
           <Image src="/existential-chicken-steps-3.svg" width="350" height="350" alt="Step 3"/>
-          <p className="text-stone-700 p-4 pt-0">At the end, the player with the most points wins</p>
+          <p className="text-stone-700 px-4 pb-4">
+            At the end, the player with the most points wins
+          </p>
         </div>
       </div>
     </Section>
 
     <Section>
       <h2 className="text-3xl font-serif mb-8 text-center">
-        Try out #41
+        Try out <span className="super">#</span>14
       </h2>
       <Area>
         <Image
@@ -210,16 +211,16 @@ const ExistentialChickenPage = () => (
     <footer className="sticky bottom-8 flex justify-center text-lg">
       <Surface>
         <a
-          href="https://buy.stripe.com/aEUg2aaTl0Rqcda6oo"
+          href="https://buy.stripe.com/3cs3fo9PhfMka52aEF"
           className="flex items-center gap-12 px-3 py-2"
         >
           <div
-            className="block bg-blue-500 text-white disabled:bg-stone-400 disabled:text-stone-300 px-6 py-3 rounded-lg shadow-sm">
+            className="block bg-black text-white disabled:bg-stone-400 disabled:text-stone-300 px-6 py-3 rounded-lg shadow-sm">
             Buy the game
           </div>
 
           <div className="flex gap-1 items-baseline">
-            <span>$19.99</span>
+            <span>$24</span>
             <span className="text-xs">+ shipping</span>
           </div>
         </a>
