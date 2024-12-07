@@ -8,7 +8,7 @@ import Surface from "../components/Surface";
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
-const Step = ({ number, image, text }: Props) => {
+const Step = ({ number, image, text }) => {
   return (
     <div className="m-2 p-4 flex flex-col items-center flex-1 rounded-xl text-center relative">
       <div className="text-stone-300 text-9xl absolute left-0 top-0">{number}</div>
