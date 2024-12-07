@@ -189,6 +189,6 @@
   --background-start: var(--neutral-100);
   --background-end: var(--neutral-200);
   --theme-action-color: var(--cyan-600);
-  --surface-opacity: 0.66;
+  --surface-opacity: 0.55;
   --surface-opacity-hover: 0.75;
 }

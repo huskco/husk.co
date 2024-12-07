@@ -4,7 +4,7 @@ import Section from "../components/Section";
 import Layout from "../components/Layout";
 import Badge from "../components/Badge";
 import Area from "../components/Area";
-import Surface from "../components/Surface";
+import Glass from "../components/Glass";
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
@@ -204,13 +204,13 @@ const ExistentialChickenPage = () => (
 
     {/* Floating footer buy button */}
     <footer className="sticky bottom-8 flex justify-center z-50">
-      <Surface>
+      <Glass>
         <a
           href="https://buy.stripe.com/3cs3fo9PhfMka52aEF"
           className="flex items-center gap-4 md:gap-12 px-3 py-2"
         >
           <div
-            className="block bg-black border-t text-white disabled:bg-stone-400 disabled:text-stone-300 px-6 py-3 rounded-lg shadow-sm text-nowrap text-md md:text-lg">
+            className="block bg-blue-500 text-white disabled:bg-stone-400 disabled:text-stone-300 px-6 py-3 rounded-lg shadow-sm text-nowrap text-md md:text-lg">
             Buy the game
           </div>
 
@@ -219,7 +219,7 @@ const ExistentialChickenPage = () => (
             <span className="text-xs">+ shipping</span>
           </div>
         </a>
-      </Surface>
+      </Glass>
     </footer>
   </Layout>
 );
