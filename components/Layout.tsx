@@ -9,7 +9,7 @@ type Props = {
 };
 
 const Layout = ({ children, title = "This is the default title" }: Props) => (
-  <div className="bg-stone-200 text-stone-700 min-h-screen flex flex-col p-12 pt-24">
+  <div className="bg-stone-200 text-stone-700 min-h-screen flex flex-col p-8 pt-24">
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
@@ -28,7 +28,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
 
     <main className="flex-1">{children}</main>
 
-    <footer className="flex stretch-content items-center text-stone-700 text-sm font-light mt-8">
+    <footer className="md:flex stretch-content items-center text-stone-700 text-sm font-light mt-8">
       <div className="space-x-4 flex-1">
         <span>Made by your friends in Colorado</span>
         <span>&copy; Husk, LLC</span>
@@ -36,7 +36,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <Link href="/">
         <Image src="/husk-logo-footer.svg" width="36" height="36" alt="Husk" />
       </Link>
-      <div className="space-x-4 flex-1 text-right">
+      <div className="space-x-4 flex-1 text-center md:text-right">
         <Link className="hover:text-warm-stone-900" href="/">Home</Link>
         <Link className="hover:text-warm-stone-900"  href="/about">About</Link>
         <Link className="hover:text-warm-stone-900"  href="mailto:hello@husk.co">hello@husk.co</Link>
