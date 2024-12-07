@@ -203,14 +203,14 @@ const ExistentialChickenPage = () => (
     </Section>
 
     {/* Floating footer buy button */}
-    <footer className="sticky bottom-8 flex justify-center">
+    <footer className="sticky bottom-8 flex justify-center z-50">
       <Surface>
         <a
           href="https://buy.stripe.com/3cs3fo9PhfMka52aEF"
           className="flex items-center gap-4 md:gap-12 px-3 py-2"
         >
           <div
-            className="block bg-black text-white disabled:bg-stone-400 disabled:text-stone-300 px-6 py-3 rounded-lg shadow-sm text-nowrap text-md md:text-lg">
+            className="block bg-black border-t text-white disabled:bg-stone-400 disabled:text-stone-300 px-6 py-3 rounded-lg shadow-sm text-nowrap text-md md:text-lg">
             Buy the game
           </div>
 
