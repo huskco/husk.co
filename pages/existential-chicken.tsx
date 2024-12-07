@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import Section from "../components/Section";
 import Layout from "../components/Layout";
@@ -10,7 +9,7 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const Step = ({ number, image, text }) => {
   return (
-    <div className="m-2 p-4 flex flex-col items-center flex-1 rounded-xl text-center relative">
+    <div className="flex-1 max-w-72 m-auto flex flex-col justify-center items-center sm:m-2 p-4  rounded-xl text-center relative">
       <div className="text-stone-300 text-9xl absolute left-0 top-0">{number}</div>
       <Image src={image} width="350" height="350" alt={`Step ${number}`} className="max-w-48 relative z-10"/>
       <p className="text-stone-700 px-4 pb-4">
@@ -23,23 +22,21 @@ const Step = ({ number, image, text }) => {
 const ExistentialChickenPage = () => (
   <Layout title="Existential Chicken - Husk">
     <Section>
-      <div className="flex-1 justify-center text-center">
-        <div className="space-y-4 md:space-y-8 p-6 py-8">
-          <h1 className="text-4xl md:text-6xl font-semibold font-serif">
-            Existential Chicken
-          </h1>
+      <div className="flex-1 text-center space-y-2 md:space-y-8 p-4">
+        <h1 className="text-4xl md:text-6xl font-semibold font-serif">
+          Existential Chicken
+        </h1>
 
-          <div className="text-lg">
-            <p className="mb-3">
-              Explore philosophy's toughest questions about the nature of the universe and what really matters
-              with this conversation game and maybe a little bit of wine (in vino veritas, after all).
-            </p>
-            <p className="mb-4">
-              It is not a game about chickens.
-            </p>
-          </div>
+        <div className="space-y-4 max-w-3xl m-auto text-sm md:text-lg">
+          <p className="text-pretty">
+            Explore philosophy's toughest questions about the nature of the world and what really matters
+            with this conversation game and maybe a little bit of wine (in vino veritas, after all).
+          </p>
+          <p>
+            It is not a game about chickens.
+          </p>
 
-          <div className="flex space-x-2 justify-center">
+          <div className="flex space-x-2 pt-2 justify-center">
             <Badge>Ages 12+</Badge>
             <Badge>15-30 mins</Badge>
             <Badge>Up to 12 players</Badge>
@@ -53,16 +50,13 @@ const ExistentialChickenPage = () => (
       >{''}</Area>
 
       <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-auto gap-4 items-stretch">
-        <Area className="md:row-span-3 flex-1 relative flex flex-col">
-          <p className="flex-1 text-left p-8 md:p-12 pb-2 md:pb-2 text-2xl italic font-serif text-white">
+        <Area
+          className="md:row-span-3 flex-1 relative flex md:flex-col bg-cover bg-righ"
+          backgroundImage="/existential-chicken-dare.jpg"
+        >
+          <p className="w-2/3 text-left p-8 md:p-12 text-xl md:text-2xl italic font-serif text-white">
             Challenge your friends to see who can answer the toughest questions in the universe
           </p>
-          <Image
-            src="/existential-chicken-dare.jpg"
-            alt="Plato about to ask you a question"
-            width={900}
-            height={700}
-          />
         </Area>
 
         <Area backgroundColor="bg-white" className="flex flex-col row-span-1 justify-center text-lg text-left font-serif p-12">
@@ -107,7 +101,7 @@ const ExistentialChickenPage = () => (
     {/* How to Play Section */}
     <Section>
       <h2 className="text-3xl font-serif mb-8 text-center">How do you play?</h2>
-      <div className="md:flex justify-center items-stretch font-serif font-medium text-lg">
+      <div className="sm:flex justify-center items-stretch font-serif font-medium text-lg">
         <Step number={1} image="/existential-chicken-steps-1.svg" text="Draw the top card and ask the question clearly" />
         <Step number={2} image="/existential-chicken-steps-2.svg" text="Get a point for a thoughtful answer eor you're 'cracked'" />
         <Step number={3} image="/existential-chicken-steps-3.svg" text="At the end, the player with the most points wins" />
@@ -204,7 +198,7 @@ const ExistentialChickenPage = () => (
 
     {/* Floating footer buy button */}
     <footer className="sticky bottom-8 flex justify-center z-50">
-      <Glass>
+      <Glass className="hover:p-2 hover:px-2.5 hover:shadow-lg hover:rounded-2xl hover:backdrop-blur-2xl hover:bg-white/75">
         <a
           href="https://buy.stripe.com/3cs3fo9PhfMka52aEF"
           className="flex items-center gap-4 md:gap-12 px-3 py-2"

@@ -3,7 +3,6 @@ import Layout from "../components/Layout";
 import Image from "next/image";
 import Section from "../components/Section";
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
-import styles from '../styles/Home.module.css';
 
 const IndexPage = () => (
   <Layout title='Home - Husk'>
