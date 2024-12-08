@@ -200,7 +200,7 @@ const ExistentialChickenPage = () => (
     <footer className="sticky bottom-8 flex justify-center z-50">
       <Glass className="hover:p-2 hover:px-2.5 hover:shadow-lg hover:rounded-2xl hover:backdrop-blur-2xl hover:bg-white/75">
         <a
-          href="https://buy.stripe.com/3cs3fo9PhfMka52aEF"
+          href="https://buy.stripe.com/aEU03c7H97fOcda4gi"
           className="flex items-center gap-4 md:gap-12 px-3 py-2"
         >
           <div
