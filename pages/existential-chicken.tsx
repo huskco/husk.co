@@ -49,24 +49,24 @@ const ExistentialChickenPage = () => (
         className='rounded-2xl aspect-video'
       >{''}</Area>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-auto gap-4 items-stretch">
+      <div className="grid grid-cols-1 md:grid-cols-5 md:grid-rows-auto gap-4 items-stretch">
         <Area
-          className="md:row-span-3 flex-1 relative flex md:flex-col bg-cover bg-righ"
+          className="md:row-span-3 md:col-span-2 p-8 md:p-12 flex-1 relative flex md:flex-col bg-contain bg-no-repeat bg-right md:bg-bottom"
           backgroundImage="/existential-chicken-dare.jpg"
         >
-          <p className="w-2/3 text-left p-8 md:p-12 text-xl md:text-2xl italic font-serif text-white">
+          <p className="text-lg md:text-2xl w-2/3 md:w-full italic font-serif text-white">
             Challenge your friends to see who can answer the toughest questions in the universe
           </p>
         </Area>
 
-        <Area backgroundColor="bg-white" className="flex flex-col row-span-1 justify-center text-lg text-left font-serif p-12">
+        <Area backgroundColor="bg-white" className="flex flex-col row-span-1 md:col-span-3 justify-center p-12 text-left font-serif">
           <dl>
-            <dt className="text-sm space-x-4 text-stone-600">
+            <dt className="text-sm md:text-base space-x-4 text-stone-600">
               <span className="text-bold">chicken</span>
               <span>/ˈtʃɪk.ɪn/</span>
               <span className="italic">noun</span>
             </dt>
-            <dd className="text-sm text-stone-700 font-light">
+            <dd className="text-stone-700 text-sm md:text-md font-light">
               a game where players challenge each other to see who can go furthest and not "chicken out"
             </dd>
           </dl>
@@ -74,7 +74,7 @@ const ExistentialChickenPage = () => (
 
         <Area
           backgroundImage="/existential-chicken-stack.jpg"
-          className="row-span-2 p-36">
+          className="row-span-2 md:col-span-3 p-36">
         </Area>
       </div>
     </Section>
@@ -136,7 +136,7 @@ const ExistentialChickenPage = () => (
             <ChevronDownIcon className="size-5 text-stone-500 group-data-[hover]:text-stone-500 group-data-[open]:rotate-180" />
           </DisclosureButton>
           <DisclosurePanel className="text-sm text-stone-700">
-            You already have the only qualification you need: you exist!
+            You already have the only qualification you need: <em>you exist! </em>
             No one could know more about what that means for you and how you see the world.
             Analyzing your own existence is harder than you might think, so we made this game to feel as casual and comfortable as possible.
             Just do your best to answer as as earnestly and thoughtfully as you can and encourage discussion.
