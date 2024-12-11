@@ -51,15 +51,15 @@ const ExistentialChickenPage = () => (
 
       <div className="grid grid-cols-1 md:grid-cols-5 md:grid-rows-auto gap-4 items-stretch">
         <Area
-          className="md:row-span-3 md:col-span-2 p-8 md:p-12 flex-1 relative flex md:flex-col bg-contain bg-no-repeat bg-right md:bg-bottom"
+          className="md:row-span-3 md:col-span-2 p-12 flex-1 relative flex md:flex-col bg-contain bg-no-repeat bg-right-bottom bg-[length:225px_175px] md:bg-[length:300px_233px]"
           backgroundImage="/existential-chicken-dare.jpg"
         >
-          <p className="text-lg md:text-2xl w-2/3 md:w-full italic font-serif text-white">
+          <p className="text-lg md:text-2xl w-2/3 md:w-4/5 italic font-serif text-white">
             Challenge your friends to see who can answer the toughest questions in the universe
           </p>
         </Area>
 
-        <Area backgroundColor="bg-white" className="flex flex-col row-span-1 md:col-span-3 justify-center p-12 text-left font-serif">
+        <Area backgroundColor="bg-white" className="flex flex-col row-span-1 md:col-span-3 justify-center p-12 md:p-16 text-left font-serif">
           <dl>
             <dt className="text-sm md:text-base space-x-4 text-stone-600">
               <span className="text-bold">chicken</span>
