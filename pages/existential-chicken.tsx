@@ -59,7 +59,7 @@ const ExistentialChickenPage = () => (
           </p>
         </Area>
 
-        <Area backgroundColor="bg-white" className="flex flex-col row-span-1 md:col-span-3 justify-center p-12 md:p-16 text-left font-serif">
+        <Area backgroundColor="bg-white" className="flex flex-col row-span-1 md:col-span-3 justify-center p-12 text-left font-serif">
           <dl>
             <dt className="text-sm md:text-base space-x-4 text-stone-600">
               <span className="text-bold">chicken</span>
