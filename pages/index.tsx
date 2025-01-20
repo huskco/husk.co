@@ -14,8 +14,7 @@ const IndexPage = () => (
           </h1>
 
           <p>
-            We're a tiny creative workshop creating digital and physical goods for a better world.
-            Our projects are small but meaningful, built with care and attention to detail.
+            We're a tiny creative studio creating digital and physical goods for a better world.
           </p>
 
           <div className="relative">

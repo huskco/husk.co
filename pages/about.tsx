@@ -3,7 +3,7 @@ import Section from "../components/Section";
 import Surface from "../components/Glass";
 
 const AboutPage = () => (
-  <Layout title="About | Huske">
+  <Layout title="About | Husk">
     <Section>
       <div className="md:w-1/2">
         <h1 className='text-3xl font-serif font-semibold mb-4'>
