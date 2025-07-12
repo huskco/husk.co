@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import "_variables.module.css";
+@import "_typography.module.css";
 
 @font-face {
   font-family: "TiemposHeadline";

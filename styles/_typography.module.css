@@ -1,0 +1,174 @@
+body h1, 
+body h2,
+body h3,
+body h4 {
+  color: var(--theme-color-heading);
+  font-family: var(--heading-font);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.025rem;
+  line-height: 1.1;
+  margin: 0 0 0.5em;
+  transition: all var(--base-timing) var(--base-easing);
+}
+
+body h1 {
+  font-size: 2.75rem;
+}
+
+body h2 {
+  font-size: 1.75rem;
+}
+
+body h3 {
+  font-size: 1.25rem;
+}
+
+
+body ul {
+  list-style: none;
+  margin: 0 var(--base-spacing) var(--large-spacing);
+  padding: 0;
+}
+
+body li {
+  padding-left: 0
+}
+
+body li::before {
+  color: var(--muted-color);
+  content: "•";
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 0;
+  margin-left: calc(var(--small-spacing) * -1);
+  margin-right: var(--smaller-spacing);
+}
+
+body p {
+  margin: 0 0 var(--base-spacing);
+  font-weight: var(--font-weight-light);
+  text-wrap: pretty;
+}
+
+body p + h2 {
+  margin-top: var(--large-spacing);
+}
+
+body p + h3 {
+  margin-top: var(--base-spacing);
+}
+
+body p + ul {
+  margin-top: calc(var(--small-spacing) * -1);
+}
+
+body a {
+  color: var(--theme-action-color);
+  font-weight: var(--font-weight-regular);
+  text-decoration: none;
+}
+
+body a h2,
+body a h3,
+body a h3 {
+  color: var(--theme-action-color);
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+body strong {
+  font-weight: var(--font-weight-semibold);
+}
+
+body img,
+body svg {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+body mark {
+  background: linear-gradient(
+    90deg,
+    rgba(var(--theme-highlight-rgb), 0.2) 10%,
+    rgba(var(--theme-highlight-rgb), 0.1) 80%,
+    rgba(var(--theme-highlight-rgb), 0.15)
+  );
+  border-radius: 1.5rem 0.5rem;
+  box-decoration-break: clone;
+  color: var(--theme-text-color);
+  font-weight: var(--font-weight-regular);
+  padding: 0 0.33rem 0.16rem;
+}
+
+/* Code blocks */
+body pre {
+  background-color: var(--black);
+  font-size: var(--small-font-size);
+  padding: 0 var(--small-spacing);
+}
+
+body pre .nc,
+body pre .s {
+  color: shade(var(--green-500), 25%);
+}
+
+body pre .nb {
+  color: var(--blue-500);
+}
+
+body pre .m {
+  color: var(--cyan-500);
+}
+
+body .na {
+  color: var(--purple-500);
+}
+
+/* Small text */
+body small,
+body figcaption,
+body .section-title {
+  color: var(--muted-color);
+  font-family: var(--heading-font);
+  font-size: var(--smallest-font-size);
+  font-weight: var(--font-weight-light);
+  letter-spacing: 0.05rem;
+  line-height: 200%;
+}
+
+body figure {
+  margin: 0;
+  padding: 3%;
+}
+
+body figcaption {
+  font-size: var(--smallest-font-size);
+  margin: var(--smaller-spacing) 0 0;
+}
+
+body .section-title {
+  margin: 0 0 var(--small-spacing);
+}
+
+body blockquote {
+  font-size: var(--large-font-size);
+  font-style: italic;
+  position: relative;
+  margin-bottom: var(--base-spacing);
+}
+
+body blockquote::before {
+  color: var(--muted-color);
+  content: "“";
+  font-size: 6rem;
+  font-family: var(--heading-font);
+  left: -0.3rem;
+  opacity: 0.25;
+  position: absolute;
+  top: -0.45rem;
+  width: 1rem;
+  z-index: -1;
+}

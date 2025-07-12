@@ -1,6 +1,5 @@
 import Layout from "../components/Layout";
 import Section from "../components/Section";
-import Surface from "../components/Glass";
 
 const AboutPage = () => (
   <Layout title="About | Husk">

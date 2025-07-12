@@ -184,7 +184,7 @@
   /* Theme */
   --stark-rgb: 255, 255, 255;
   --text-color: var(--neutral-700);
-  --theme-color-heading: var(--theme-color-bg-start);
+  --theme-color-heading: var(--neutral-700);
   --muted-color: rgba(0, 0, 0, 0.33);
   --background-start: var(--neutral-100);
   --background-end: var(--neutral-200);
