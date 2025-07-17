@@ -9,7 +9,7 @@ type Props = {
 };
 
 const Layout = ({ children, title = "This is the default title" }: Props) => (
-  <div className="bg-stone-200 text-stone-800 min-h-screen flex flex-col">
+  <div className="bg-stone-200 text-stone-800 min-h-screen flex flex-col p-8">
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
@@ -33,17 +33,16 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <div className="space-x-4 flex-1">
         <Link className="text-stone-500 hover:text-stone-900" href="/">Home</Link>
         <Link className="text-stone-500 hover:text-stone-900" href="/about">About</Link>
-        <Link className="text-stone-500 hover:text-stone-900" href="/legal">Legal</Link>
+        <Link className="text-stone-500 hover:text-stone-900" href="mailto:hello@husk.co">Support</Link>
         <Link className="text-stone-500 hover:text-stone-900" href="/legal/return-policy">Return Policy</Link>
         <Link className="text-stone-500 hover:text-stone-900" href="/legal/privacy-policy">Privacy Policy</Link>
         <Link className="text-stone-500 hover:text-stone-900" href="/legal/terms-of-service">Terms of Service</Link>
-        <Link className="text-stone-500 hover:text-stone-900" href="mailto:hello@husk.co">hello@husk.co</Link>
       </div>
       <Link href="/" className="hidden md:block opacity-25">
         <Image src="/husk-logo-footer.svg" width="36" height="36" alt="Husk" />
       </Link>
       <div className="space-x-4 flex-1 md:text-right">
-        &copy; Husk, LLC
+       Copyright &copy; {new Date().getFullYear()} Husk, LLC. All rights reserved.
       </div>
     </footer>
   </div>
