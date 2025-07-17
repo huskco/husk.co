@@ -82,13 +82,6 @@ body strong {
   font-weight: var(--font-weight-semibold);
 }
 
-body img,
-body svg {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-}
-
 body mark {
   background: linear-gradient(
     90deg,

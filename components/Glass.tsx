@@ -3,7 +3,7 @@ type Props = {
   className?: string
 }
 
-const Glass = ({ className, children }: Props) => {
+const Glass = ({ children, className }: Props) => {
   return (
     <div className={`
       bg-white/50 hover:bg-opacity-60

@@ -11,7 +11,7 @@ const PrivacyPolicy = () => (
 
     <section>
 
-      <p>This summary provides key points from our Privacy Notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for.</p>
+      <p>This summary provides key points from our Privacy Notice, but you can find out more details about any of these topics by clicking the link following each key point.</p>
 
       <p><strong>What personal information do we process?</strong> When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use. Learn more about <a href="#personalinfo">personal information you disclose to us</a>.</p>
 
@@ -30,28 +30,6 @@ const PrivacyPolicy = () => (
       <p><strong>How do you exercise your rights?</strong> The easiest way to exercise your rights is by visiting <a href="http://husk.co/data-request">husk.co/data-request</a>, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.</p>
 
       <p>Want to learn more about what we do with any information we collect? <a href="#toc">Review the Privacy Notice in full</a>.</p>
-    </section>
-
-    <section>
-      <h2>Table of Contents</h2>
-
-      <ol>
-          <li><a href="#infocollect">What Information Do We Collect?</a></li>
-          <li><a href="#infouse">How Do We Process Your Information?</a></li>
-          <li><a href="#legalbases">What Legal Bases Do We Rely on to Process Your Personal Information?</a></li>
-          <li><a href="#whoshare">When and With Whom Do We Share Your Personal Information?</a></li>
-          <li><a href="#cookies">Do We Use Cookies and Other Tracking Technologies?</a></li>
-          <li><a href="#inforetain">How Long Do We Keep Your Information?</a></li>
-          <li><a href="#infosafe">How Do We Keep Your Information Safe?</a></li>
-          <li><a href="#infominors">Do We Collect Information From Minors?</a></li>
-          <li><a href="#privacyrights">What Are Your Privacy Rights?</a></li>
-          <li><a href="#DNT">Controls for Do-Not-Track Features</a></li>
-          <li><a href="#uslaws">Do United States Residents Have Specific Privacy Rights?</a></li>
-          <li><a href="#otherlaws">Do Other Regions Have Specific Privacy Rights?</a></li>
-          <li><a href="#policyupdates">Do We Make Updates to This Notice?</a></li>
-          <li><a href="#contact">How Can You Contact Us About This Notice?</a></li>
-          <li><a href="#request">How Can You Review, Update, or Delete the Data We Collect From You?</a></li>
-      </ol>
     </section>
 
     <section>

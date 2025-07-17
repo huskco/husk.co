@@ -1,9 +1,9 @@
-import Layout from "../components/Layout";
-import Section from "../components/Section";
+import Layout from "../../components/Layout";
+import Section from "../../components/Section";
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
-import ReturnPolicy from "../components/legal/ReturnPolicy";
-import PrivacyPolicy from "../components/legal/PrivacyPolicy";
-import TermsOfService from "../components/legal/TermsOfService";
+import ReturnPolicy from "../../components/legal/ReturnPolicy";
+import PrivacyPolicy from "../../components/legal/PrivacyPolicy";
+import TermsOfService from "../../components/legal/TermsOfService";
 import { useRef, useLayoutEffect, useState } from "react";
 import { useRouter } from "next/router";
 
@@ -17,7 +17,7 @@ const tabClass =
   "relative z-10 px-4 py-1.5 rounded-full text-sm font-medium transition-colors duration-200 focus:outline-none " +
   "text-stone-500 data-[hover]:text-stone-700 data-[selected]:text-black";
 
-const LegalPage = () => {
+const ReturnPolicyPage = () => {
   const router = useRouter();
   const [selectedIndex, setSelectedIndex] = useState(0);
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
@@ -45,7 +45,7 @@ const LegalPage = () => {
   };
 
   return (
-    <Layout title="About | Husk">
+    <Layout title="Return Policy | Husk">
       <Section>
         <h1 className="mb-4">
           Legal policies
@@ -92,4 +92,4 @@ const LegalPage = () => {
   );
 };
 
-export default LegalPage;
+export default ReturnPolicyPage;

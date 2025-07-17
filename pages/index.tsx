@@ -25,17 +25,15 @@ const IndexPage = () => (
           </div>
         </div>
 
-        <div className='w-full md:w-1/2'>
-          <Link href='/existential-chicken'>
-            <Image
-              src="/existential-chicken-thumbnail.jpg"
-              width={1800}
-              height={1350}
-              alt='Existential Chicken box'
-              className='aspect-square object-cover rounded-xl shadow-sm hover:-translate-y-1 hover:shadow-xl transition-all duration-500'
-            />
-          </Link>
-        </div>
+        <Link className='w-full md:w-1/2' href='/existential-chicken'>
+          <Image
+            src="/existential-chicken-box.png"
+            width={1200}
+            height={1200}
+            alt='Existential Chicken box'
+            className='aspect-square object-cover'
+          />
+        </Link>
       </div>
     </Section>
   </Layout>
