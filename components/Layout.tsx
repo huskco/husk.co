@@ -20,16 +20,16 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,200..900&display=swap" rel="stylesheet" />
     </Head>
 
-    <header className="p-16 flex stretch-content items-center">
+    <header className="p-16 py-4 flex stretch-content items-center">
       <Link href="/" className="flex justify-center items-center text-warm-stone-900">
         <Image src="/husk-logo-footer.svg" width="32" height="32" alt="Husk" />
         <span className="text-2xl text-stone-900 font-serif ml-1 mt-1 font-semibold">Husk</span> 
       </Link>
     </header>
 
-    <main>{children}</main>
+    <main className="flex-1">{children}</main>
 
-    <footer className="flex flex-col md:flex-row stretch-content items-center text-stone-700 text-sm font-light p-16">
+    <footer className="flex flex-col md:flex-row stretch-content items-center text-stone-700 text-sm font-light p-16 py-4">
       <div className="space-x-4 flex-1">
         <Link className="text-stone-500 hover:text-stone-900" href="/">Home</Link>
         <Link className="text-stone-500 hover:text-stone-900" href="/about">About</Link>
@@ -42,7 +42,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
         <Image src="/husk-logo-footer.svg" width="36" height="36" alt="Husk" />
       </Link>
       <div className="space-x-4 flex-1 md:text-right">
-       Copyright &copy; {new Date().getFullYear()} Husk, LLC. All rights reserved.
+       &copy; {new Date().getFullYear()} Husk, LLC. All rights reserved.
       </div>
     </footer>
   </div>
