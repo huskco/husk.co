@@ -36,7 +36,7 @@ const PrivacyPolicyPage = () => {
       </section>
 
       <section>
-        <h2 id="infocollect">1. What Information Do We Collect?</h2>
+        <h2 id="infocollect">What Information Do We Collect?</h2>
 
         <h3 id="personalinfo">Personal Information You Disclose to Us</h3>
 
@@ -64,7 +64,7 @@ const PrivacyPolicyPage = () => {
         </section>
 
         <section>
-        <h2 id="infouse">2. How Do We Process Your Information?</h2>
+        <h2 id="infouse">How Do We Process Your Information?</h2>
 
         <p><strong><em>In Short:</em></strong> <em>We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We process the personal information for the following purposes listed below. We may also process your information for other purposes only with your prior explicit consent.</em></p>
 
@@ -80,7 +80,7 @@ const PrivacyPolicyPage = () => {
       </section>
 
       <section>
-        <h2 id="legalbases">3. What Legal Bases Do We Rely on to Process Your Information?</h2>
+        <h2 id="legalbases">What Legal Bases Do We Rely on to Process Your Information?</h2>
 
         <p><strong><em>In Short:</em></strong> <em>We only process your personal information when we believe it is necessary and we have a valid legal reason (i.e., legal basis) to do so under applicable law, like with your consent, to comply with laws, to provide you with services to enter into or fulfill our contractual obligations, to protect your rights, or to fulfill our legitimate business interests.</em></p>
 
@@ -118,7 +118,7 @@ const PrivacyPolicyPage = () => {
       </section>
 
       <section>
-        <h2 id="whoshare">4. When and With Whom Do We Share Your Personal Information?</h2>
+        <h2 id="whoshare">When and With Whom Do We Share Your Personal Information?</h2>
 
         <p><strong><em>In Short:</em></strong> <em>We may share information in specific situations described in this section and/or with the following third parties.</em></p>
 
@@ -130,7 +130,7 @@ const PrivacyPolicyPage = () => {
       </section>
 
       <section>
-        <h2 id="cookies">5. Do We Use Cookies and Other Tracking Technologies?</h2>
+        <h2 id="cookies">Do We Use Cookies and Other Tracking Technologies?</h2>
 
         <p><strong><em>In Short:</em></strong> <em>We may use cookies and other tracking technologies to collect and store your information.</em></p>
 
@@ -144,7 +144,7 @@ const PrivacyPolicyPage = () => {
       </section>
 
       <section>
-        <h2 id="inforetain">6. How Long Do We Keep Your Information?</h2>
+        <h2 id="inforetain">How Long Do We Keep Your Information?</h2>
 
         <p><strong><em>In Short:</em></strong> <em>We keep your information for as long as necessary to fulfill the purposes outlined in this Privacy Notice unless otherwise required by law.</em></p>
 
@@ -152,7 +152,7 @@ const PrivacyPolicyPage = () => {
 
         <p>When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.</p>
 
-        <h2 id="infosafe">7. How Do We Keep Your Information Safe?</h2>
+        <h2 id="infosafe">How Do We Keep Your Information Safe?</h2>
 
         <p><strong><em>In Short:</em></strong> <em>We aim to protect your personal information through a system of organizational and technical security measures.</em></p>
 
@@ -160,7 +160,7 @@ const PrivacyPolicyPage = () => {
       </section>
 
       <section>
-        <h2 id="infominors">8. Do We Collect Information From Minors?</h2>
+        <h2 id="infominors">Do We Collect Information From Minors?</h2>
 
         <p><strong><em>In Short:</em></strong> <em>We do not knowingly collect data from or market to children under 18 years of age or the equivalent age as specified by law in your jurisdiction.</em></p>
 
@@ -168,7 +168,7 @@ const PrivacyPolicyPage = () => {
       </section>
 
       <section>
-        <h2 id="privacyrights">9. What Are Your Privacy Rights?</h2>
+        <h2 id="privacyrights">What Are Your Privacy Rights?</h2>
 
         <p><strong><em>In Short:</em></strong> <em>Depending on your state of residence in the US or in some regions, such as the European Economic Area (EEA), United Kingdom (UK), Switzerland, and Canada, you have rights that allow you greater access to and control over your personal information. You may review, change, or terminate your account at any time, depending on your country, province, or state of residence.</em></p>
 
@@ -193,7 +193,7 @@ const PrivacyPolicyPage = () => {
       </section>
 
       <section>
-        <h2 id="DNT">10. Controls for Do-Not-Track Features</h2>
+        <h2 id="DNT">Controls for Do-Not-Track Features</h2>
 
         <p>Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ("DNT") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage, no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this Privacy Notice.</p>
 
@@ -201,7 +201,7 @@ const PrivacyPolicyPage = () => {
       </section>
 
       <section>
-        <h2 id="uslaws">11. Do United States Residents Have Specific Privacy Rights?</h2>
+        <h2 id="uslaws">Do United States Residents Have Specific Privacy Rights?</h2>
 
         <p><strong><em>In Short:</em></strong> <em>If you are a resident of California, Colorado, Connecticut, Delaware, Florida, Indiana, Iowa, Kentucky, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah, or Virginia, you may have the right to request access to and receive details about the personal information we maintain about you and how we have processed it, correct inaccuracies, get a copy of, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. More information is provided below.</em></p>
 
@@ -338,7 +338,7 @@ const PrivacyPolicyPage = () => {
         <h3>California "Shine The Light" Law</h3>
         <p>California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us by using the contact details provided in the section "<a href="#contact">How Can You Contact Us About This Notice?</a>"</p>
 
-        <h2 id="otherlaws">12. Do Other Regions Have Specific Privacy Rights?</h2>
+        <h2 id="otherlaws">Do Other Regions Have Specific Privacy Rights?</h2>
 
         <p><strong><em>In Short:</em></strong> <em>You may have additional rights based on the country you reside in.</em></p>
 
@@ -373,7 +373,7 @@ const PrivacyPolicyPage = () => {
       </section>
 
       <section>
-        <h2 id="policyupdates">13. Do We Make Updates to This Notice?</h2>
+        <h2 id="policyupdates">Do We Make Updates to This Notice?</h2>
 
         <p><strong><em>In Short:</em></strong> <em>Yes, we will update this notice as necessary to stay compliant with relevant laws.</em></p>
 
@@ -381,7 +381,7 @@ const PrivacyPolicyPage = () => {
       </section>
 
       <section>
-        <h2 id="contact">14. How Can You Contact Us About This Notice?</h2>
+        <h2 id="contact">How Can You Contact Us About This Notice?</h2>
         
         <p>If you have questions or comments about this notice, you may email us at <strong>support@husk.co</strong> or contact us by post at:</p>
         <p>
@@ -392,7 +392,7 @@ const PrivacyPolicyPage = () => {
       </section>
 
       <section>
-        <h2 id="request">15. How Can You Review, Update, or Delete the Data We Collect From You?</h2>
+        <h2 id="request">How Can You Review, Update, or Delete the Data We Collect From You?</h2>
         <p>
           Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please visit: <a href="http://husk.co/data-request">husk.co/data-request</a>.
         </p>
