@@ -140,7 +140,7 @@ const PrivacyPolicyPage = () => {
 
         <p>To the extent these online tracking technologies are deemed to be a "sale"/"sharing" (which includes targeted advertising, as defined under the applicable laws) under applicable US state laws, you can opt out of these online tracking technologies by submitting a request as described below under section "<a href="#uslaws">Do United States Residents Have Specific Privacy Rights?</a>"</p>
 
-        <p>Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice.</p>
+        <p>Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Policy available at <a href="/legal/cookie-policy">/legal/cookie-policy</a>.</p>
       </section>
 
       <section>
@@ -217,12 +217,12 @@ const PrivacyPolicyPage = () => {
             <tr>
                 <td>A. Identifiers</td>
                 <td>Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name</td>
-                <td className="center">NO</td>
+                <td className="center">YES</td>
             </tr>
             <tr>
                 <td>B. Personal information as defined in the California Customer Records statute</td>
                 <td>Name, contact information, education, employment, employment history, and financial information</td>
-                <td className="center">NO</td>
+                <td className="center">YES</td>
             </tr>
             <tr>
                 <td>C. Protected classification characteristics under state or federal law</td>
@@ -232,7 +232,7 @@ const PrivacyPolicyPage = () => {
             <tr>
                 <td>D. Commercial information</td>
                 <td>Transaction information, purchase history, financial details, and payment information</td>
-                <td className="center">NO</td>
+                <td className="center">YES</td>
             </tr>
             <tr>
                 <td>E. Biometric information</td>

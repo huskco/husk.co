@@ -9,7 +9,7 @@ const ReturnPolicyPage = () => {
           Return and Refund Policy
         </h2>
         <p>
-          Last updated: May 29, 2025
+          Last updated: July 19, 2025
         </p>
       </header>
 
@@ -61,7 +61,7 @@ const ReturnPolicyPage = () => {
         <p>
           You are entitled to cancel Your Order within 30 days without giving any reason for doing so.
           The deadline for cancelling an Order is 30 days from the date on which You received the Goods or on which a third party you have appointed, who is not the carrier, takes possession of the product delivered.
-          In order to exercise Your right of cancellation, You must inform Us of your decision by means of a clear statement. You can inform us of your decision by email: help@husk.co
+          In order to exercise Your right of cancellation, You must inform Us of your decision by means of a clear statement. You can inform us of your decision by email: support@husk.co
           We will reimburse You no later than 14 days from the day on which We receive the returned Goods. We will use the same means of payment as You used for the Order, and You will not incur any fees for such reimbursement.
         </p>
       </section>
@@ -128,7 +128,7 @@ const ReturnPolicyPage = () => {
           Contact Us
         </h2>
         <p>
-          If you have any questions about our Returns and Refunds Policy, please contact us by email: <Link href="mailto:help@husk.co">help@husk.co</Link>
+          If you have any questions about our Returns and Refunds Policy, please contact us by email: <Link href="mailto:support@husk.co">support@husk.co</Link>
         </p>
       </section>
     </LegalPageWrapper>
