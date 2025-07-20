@@ -140,7 +140,7 @@ const PrivacyPolicyPage = () => {
 
         <p>To the extent these online tracking technologies are deemed to be a "sale"/"sharing" (which includes targeted advertising, as defined under the applicable laws) under applicable US state laws, you can opt out of these online tracking technologies by submitting a request as described below under section "<a href="#uslaws">Do United States Residents Have Specific Privacy Rights?</a>"</p>
 
-        <p>Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Policy available at <a href="/legal/cookie-policy">/legal/cookie-policy</a>.</p>
+        <p>You can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services.</p>
       </section>
 
       <section>
