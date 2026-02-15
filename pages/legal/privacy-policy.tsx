@@ -30,7 +30,7 @@ const PrivacyPolicyPage = () => {
 
         <p><strong>What are your rights?</strong> Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Learn more about <a href="#privacyrights">your privacy rights</a>.</p>
 
-        <p><strong>How do you exercise your rights?</strong> The easiest way to exercise your rights is by visiting <a href="http://husk.co/data-request">husk.co/data-request</a>, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.</p>
+        <p><strong>How do you exercise your rights?</strong> The easiest way to exercise your rights is by contacting us at <strong>support@husk.co</strong>. We will consider and act upon any request in accordance with applicable data protection laws.</p>
 
         <p>Want to learn more about what we do with any information we collect? <a href="#toc">Review the Privacy Notice in full</a>.</p>
       </section>
@@ -323,7 +323,7 @@ const PrivacyPolicyPage = () => {
         </ul>
 
         <h3>How to Exercise Your Rights</h3>
-        <p>To exercise these rights, you can contact us by visiting <a href="http://husk.co/data-request">husk.co/data-request</a>, by emailing us at <strong>support@husk.co</strong>, or by referring to the contact details at the bottom of this document.</p>
+        <p>To exercise these rights, you can contact us by emailing us at <strong>support@husk.co</strong>, or by referring to the contact details at the bottom of this document.</p>
 
         <p>Under certain US state data protection laws, you can designate an authorized agent to make a request on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with applicable laws.</p>
 
@@ -394,7 +394,7 @@ const PrivacyPolicyPage = () => {
       <section>
         <h2 id="request">How Can You Review, Update, or Delete the Data We Collect From You?</h2>
         <p>
-          Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please visit: <a href="http://husk.co/data-request">husk.co/data-request</a>.
+          Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please email us at <strong>support@husk.co</strong>.
         </p>
       </section>
     </LegalPageWrapper>
