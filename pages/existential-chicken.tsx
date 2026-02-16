@@ -49,12 +49,12 @@ const ExistentialChickenPage = () => (
             </div>
 
             <a
-              data-href="https://buy.stripe.com/aEU03c7H97fOcda4gi"
+              href="https://buy.stripe.com/aEU03c7H97fOcda4gi"
               className="flex items-center gap-2 md:gap-4 mt-8"
             >
               <div
-                className="block bg-stone-400 text-white disabled:bg-stone-400 disabled:text-stone-300 px-6 py-3 rounded-full shadow-sm text-nowrap text-md md:text-lg">
-                Coming soon
+                className="block bg-stone-800 hover:bg-stone-900 text-white px-6 py-3 rounded-full shadow-sm text-nowrap text-md md:text-lg transition-colors">
+                Buy Now
               </div>
 
               <div className="flex gap-1 p-2 items-center text-nowrap text-black">
