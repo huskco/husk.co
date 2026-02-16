@@ -1,0 +1,14 @@
+[build]
+  # Specify the build command
+  command = "npm run build"
+
+  # Specify the publish directory (Next.js output)
+  publish = ".next"
+
+[build.environment]
+  # Use Node.js 20 (LTS, supported until April 2026)
+  NODE_VERSION = "20"
+
+[[plugins]]
+  # Essential Next.js plugin for Netlify
+  package = "@netlify/plugin-nextjs"
