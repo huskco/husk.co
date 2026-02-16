@@ -53,7 +53,7 @@ const ExistentialChickenPage = () => (
               className="flex items-center gap-2 md:gap-4 mt-8"
             >
               <div
-                className="block bg-stone-800 hover:bg-stone-900 text-white px-6 py-3 rounded-full shadow-sm text-nowrap text-md md:text-lg transition-colors">
+                className="block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-sm text-nowrap text-md md:text-lg transition-colors">
                 Buy Now
               </div>
 
