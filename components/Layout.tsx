@@ -30,6 +30,12 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
     <main className="flex-1">{children}</main>
 
     <footer className="flex flex-col md:flex-row justify-between items-center text-stone-700 text-sm font-light p-16 py-4">
+      <div className="flex items-center gap-3 text-stone-400">
+        <Link href="/" className="opacity-25 hover:opacity-50">
+          <Image src="/husk-logo-footer.svg" width="28" height="28" alt="Husk" />
+        </Link>
+        <span>&copy; {new Date().getFullYear()} Husk, LLC.</span>
+      </div>
       <div className="space-x-4">
         <Link className="text-stone-500 hover:text-stone-900" href="/">Home</Link>
         <Link className="text-stone-500 hover:text-stone-900" href="/about">About</Link>
@@ -37,12 +43,6 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
         <Link className="text-stone-500 hover:text-stone-900" href="/legal/return-policy">Return Policy</Link>
         <Link className="text-stone-500 hover:text-stone-900" href="/legal/privacy-policy">Privacy Policy</Link>
         <Link className="text-stone-500 hover:text-stone-900" href="/legal/terms-of-service">Terms of Service</Link>
-      </div>
-      <Link href="/" className="hidden md:block opacity-25">
-        <Image src="/husk-logo-footer.svg" width="36" height="36" alt="Husk" />
-      </Link>
-      <div className="space-x-4">
-        &copy; {new Date().getFullYear()} Husk, LLC. All rights reserved.
       </div>
     </footer>
   </div>
