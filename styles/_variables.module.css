@@ -129,10 +129,10 @@
   --font-weight-regular: 400;
   --font-weight-semibold: 600;
   --font-weight-black: 800;
-  --base-font-size: calc(0.66rem + 0.75vw);
+  --base-font-size: clamp(1.125rem, calc(0.66rem + 0.75vw), 1.5rem);
   --large-font-size: calc(var(--base-font-size) * var(--bigger));
   --small-font-size: calc(var(--base-font-size) * var(--smaller));
-  --smallest-font-size: calc(var(--base-font-size) * var(--smaller));
+  --smallest-font-size: calc(var(--small-font-size) * var(--smaller));
 
   /* Borders */
   --small-border-radius: var(--smallest-spacing);

@@ -6,7 +6,7 @@ type Props = {
 };
 
 const Section = ({ children }: Props) => (
-  <section className="max-w-4xl py-24 mx-auto space-y-4">
+  <section className="max-w-5xl py-12 sm:py-24 mx-auto space-y-4">
     { children }
   </section>
 );

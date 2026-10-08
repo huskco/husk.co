@@ -5,9 +5,9 @@ import Section from "../components/Section";
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 
 const IndexPage = () => (
-  <Layout title='Home - Husk'>
+  <Layout title='Husk | Thoughtful things for curious minds'>
     <Section>
-      <div className='flex flex-col sm:flex-row items-center gap-8'>
+      <div className='flex flex-col md:flex-row items-center gap-8'>
         <div className='w-full md:w-1/2 flex flex-col gap-4'>
           <h1 className='text-3xl text-pretty font-serif font-semibold'>
             Making thoughtful things for curious minds
@@ -30,6 +30,8 @@ const IndexPage = () => (
             src="/existential-chicken-box.png"
             width={1200}
             height={1200}
+            sizes="(min-width: 768px) 50vw, 100vw"
+            preload
             alt='Existential Chicken box'
             className='aspect-square object-cover'
           />

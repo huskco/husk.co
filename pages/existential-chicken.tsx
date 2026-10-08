@@ -3,7 +3,7 @@ import Section from "../components/Section";
 import Layout from "../components/Layout";
 import Badge from "../components/Badge";
 import Area from "../components/Area";
-import Glass from "../components/Glass";
+import BuyButton from "../components/BuyButton";
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
@@ -20,17 +20,22 @@ const Step = ({ number, image, text }) => {
 }
 
 const ExistentialChickenPage = () => (
-  <Layout title="Existential Chicken - Husk">
+  <Layout
+    title="Existential Chicken: A Philosophy Card Game | Husk"
+    description="Explore philosophy's toughest questions with friends in Existential Chicken, a conversation card game for curious minds. 52 question cards, ages 12+, 2–12 players."
+  >
     <Section>
-      <div className="flex">
+      <div className="flex flex-col md:flex-row md:items-center">
         <div className="flex-1">
           <Area
             backgroundImage="/existential-chicken-thumbnail.jpg"
             className='rounded-2xl aspect-square'
-          >{''}</Area>
+            sizes="(min-width: 1024px) 512px, (min-width: 768px) 50vw, 100vw"
+            preload
+          />
         </div>
-        
-        <div className="flex-1 p-8 md:px-12">
+
+        <div className="flex-1 pt-8 md:p-8 md:px-12">
           <h1 className="text-2xl md:text-4xl font-semibold font-serif">
             Existential Chicken
           </h1>
@@ -42,28 +47,13 @@ const ExistentialChickenPage = () => (
               It is not a game about chickens.
             </p>
 
-            <div className="flex space-x-2">
+            <div className="flex flex-wrap gap-2 mt-4">
               <Badge>Ages 12+</Badge>
-              <Badge>15-30 mins</Badge>
-              <Badge>Up to 12 players</Badge>
+              <Badge>20 mins</Badge>
+              <Badge>2–12 players</Badge>
             </div>
 
-            <a
-              href="https://buy.stripe.com/aEU03c7H97fOcda4gi"
-              className="flex items-center gap-2 md:gap-4 mt-8"
-            >
-              <div
-                className="block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-sm text-nowrap text-md md:text-lg transition-colors">
-                Buy Now
-              </div>
-
-              <div className="flex gap-1 p-2 items-center text-nowrap text-black">
-                <span>
-                  $24.00
-                </span>
-                <span className="text-xs">+ shipping</span>
-              </div>
-            </a>
+            <BuyButton className="mt-8" />
           </div>
         </div>
       </div>
@@ -72,11 +62,17 @@ const ExistentialChickenPage = () => (
     <Section>
 
       <div className="grid grid-cols-1 md:grid-cols-5 md:grid-rows-auto gap-4 items-stretch">
-        <Area
-          className="md:row-span-3 md:col-span-2 p-12 flex-1 relative flex md:flex-col bg-contain bg-no-repeat bg-right-bottom bg-[length:225px_175px] md:bg-[length:300px_233px]"
-          backgroundImage="/existential-chicken-dare.jpg"
-        >
-          <p className="text-lg md:text-2xl w-2/3 md:w-4/5 italic font-serif text-white">
+        <Area className="md:row-span-3 md:col-span-2 p-8 md:p-12 pb-48 md:pb-64 flex-1 relative flex md:flex-col">
+          <Image
+            src="/existential-chicken-dare.jpg"
+            width={900}
+            height={700}
+            quality={90}
+            sizes="300px"
+            alt="A statue of a philosopher holding an Existential Chicken card"
+            className="absolute right-0 bottom-0 w-[225px] md:w-[300px] h-auto"
+          />
+          <p className="relative text-lg md:text-2xl md:w-4/5 italic font-serif text-white">
             Challenge your friends to see who can answer the toughest questions in the universe
           </p>
         </Area>
@@ -96,8 +92,9 @@ const ExistentialChickenPage = () => (
 
         <Area
           backgroundImage="/existential-chicken-stack.jpg"
-          className="row-span-2 md:col-span-3 p-36">
-        </Area>
+          className="row-span-2 md:col-span-3 min-h-64"
+          sizes="(min-width: 1024px) 615px, (min-width: 768px) 60vw, 100vw"
+        />
       </div>
     </Section>
 
@@ -105,9 +102,16 @@ const ExistentialChickenPage = () => (
       <h2 className="text-3xl font-serif mb-8 text-center">
         What's in the box?
       </h2>
-      <div className="flex justify-center items-center gap-4">
-        <div className="flex justify-center items-center mb-4 md:mb-0">
-          <Image src="/existential-chicken-box.png" width="400" height="400" alt="52 question cards" />
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+        <div className="flex justify-center items-center">
+          <Image
+            src="/existential-chicken-box.png"
+            width="400"
+            height="400"
+            sizes="(min-width: 640px) 400px, 80vw"
+            alt="The Existential Chicken box with question cards fanned out behind it"
+            className="w-4/5 sm:w-auto"
+          />
         </div>
         <div className="text-sm">
           <span className="text-sm font-bold">Includes</span>
@@ -124,7 +128,7 @@ const ExistentialChickenPage = () => (
       <h2 className="text-3xl font-serif mb-8 text-center">How do you play?</h2>
       <div className="sm:flex justify-center items-stretch font-serif font-medium text-lg">
         <Step number={1} image="/existential-chicken-steps-1.svg" text="Draw the top card and ask the question clearly" />
-        <Step number={2} image="/existential-chicken-steps-2.svg" text="Get a point for a thoughtful answer eor you're 'cracked'" />
+        <Step number={2} image="/existential-chicken-steps-2.svg" text="Get a point for a thoughtful answer, or you're 'cracked'" />
         <Step number={3} image="/existential-chicken-steps-3.svg" text="At the end, the player with the most points wins" />
       </div>
     </Section>
@@ -136,9 +140,11 @@ const ExistentialChickenPage = () => (
       <Area>
         <Image
           src="/existential-chicken-question-example.jpg"
-          width={1800}
-          height={900}
-          alt="Does language shape our thoughts and limit what we can think about?"
+          width={2400}
+          height={1200}
+          quality={90}
+          sizes="(min-width: 1024px) 1024px, 100vw"
+          alt="A hand holding card 14: Does language shape our thoughts & does it limit what we can think about?"
         />
       </Area>
     </Section>
@@ -160,7 +166,7 @@ const ExistentialChickenPage = () => (
             You already have the only qualification you need: <em>you exist! </em>
             No one could know more about what that means for you and how you see the world.
             Analyzing your own existence is harder than you might think, so we made this game to feel as casual and comfortable as possible.
-            Just do your best to answer as as earnestly and thoughtfully as you can and encourage discussion.
+            Just do your best to answer as earnestly and thoughtfully as you can and encourage discussion.
           </DisclosurePanel>
         </Disclosure>
 
@@ -172,7 +178,7 @@ const ExistentialChickenPage = () => (
             <ChevronDownIcon className="size-5 text-stone-500 group-data-[hover]:text-stone-500 group-data-[open]:rotate-180" />
           </DisclosureButton>
           <DisclosurePanel className="text-sm text-stone-700 mt-2">
-            They are based off some of our favorite philosophers: Socrates, Hypatia, Apparchia, Nietzsche, and Jean Paul Sartre.
+            They are based off some of our favorite philosophers: Socrates, Hypatia, Hipparchia, Nietzsche, and Jean-Paul Sartre.
           </DisclosurePanel>
         </Disclosure>
 
@@ -184,7 +190,7 @@ const ExistentialChickenPage = () => (
             <ChevronDownIcon className="size-5 text-stone-500 group-data-[hover]:text-stone-500 group-data-[open]:rotate-180" />
           </DisclosureButton>
           <DisclosurePanel className="text-sm text-stone-700 mt-2">
-            Some of these answers could get into religion and ideology, it may be wise to keep it professional and choose another game.
+            Some of these answers could get into religion and ideology, so it may be wise to keep it professional and choose another game.
           </DisclosurePanel>
         </Disclosure>
 
@@ -215,6 +221,29 @@ const ExistentialChickenPage = () => (
           </DisclosurePanel>
         </Disclosure>
       </div>
+    </Section>
+
+    <Section>
+      <Area backgroundColor="bg-white" className="flex flex-col sm:flex-row items-center gap-8 p-8 md:p-12">
+        <Image
+          src="/existential-chicken-box.png"
+          width="400"
+          height="400"
+          sizes="(min-width: 640px) 280px, 60vw"
+          alt="Existential Chicken box"
+          className="w-3/5 sm:w-1/3 shrink-0"
+        />
+        <div className="flex flex-col gap-4">
+          <h2 className="text-3xl font-serif text-stone-800">
+            Who will crack first?
+          </h2>
+          <p className="text-pretty text-stone-700">
+            52 questions, one instruction booklet, and plenty of late-night debate.
+            Pour some wine and find out what your friends really think.
+          </p>
+          <BuyButton />
+        </div>
+      </Area>
     </Section>
 
   </Layout>

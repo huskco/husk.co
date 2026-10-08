@@ -6,8 +6,8 @@
   publish = ".next"
 
 [build.environment]
-  # Use Node.js 20 (LTS, supported until April 2026)
-  NODE_VERSION = "20"
+  # Use Node.js 24 (LTS, supported until April 2028)
+  NODE_VERSION = "24"
 
 [[plugins]]
   # Essential Next.js plugin for Netlify

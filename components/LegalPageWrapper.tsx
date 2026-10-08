@@ -19,7 +19,7 @@ const LegalPageWrapper = ({ children }: LegalPageWrapperProps) => {
   const currentSlug = router.pathname.split('/').pop();
 
   return (
-    <Layout title="Legal | Husk">
+    <Layout title={`${tabs.find((tab) => tab.slug === currentSlug)?.name ?? "Legal"} | Husk`}>
       <Section>
         <h1 className="mb-4">
           Legal policies

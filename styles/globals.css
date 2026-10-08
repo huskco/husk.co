@@ -1,8 +1,8 @@
+@import "_variables.module.css";
+@import "_typography.module.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "_variables.module.css";
-@import "_typography.module.css";
 
 @font-face {
   font-family: "TiemposHeadline";
@@ -40,6 +40,10 @@
   font-family: "TiemposHeadline";
   src: url("/fonts/tiempos-headline-web-black.woff");
   font-weight: 800;
+}
+
+body {
+  font-size: var(--base-font-size);
 }
 
 .font-serif {
