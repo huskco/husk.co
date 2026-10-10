@@ -1,3 +1,5 @@
+import { GiftIcon } from "@heroicons/react/20/solid";
+
 const checkoutUrl = "https://buy.stripe.com/aEU03c7H97fOcda4gi";
 
 type Props = {
@@ -19,6 +21,11 @@ const BuyButton = ({ className = '' }: Props) => (
         <span className="text-xs">+ shipping</span>
       </span>
     </a>
+
+    <p className="flex items-center gap-1.5 text-sm text-stone-600">
+      <GiftIcon className="size-4 text-stone-500" />
+      Makes a great gift for the deep thinker in your life
+    </p>
 
     <p className="text-xs text-stone-500">
       Secure checkout with Stripe · 30-day returns

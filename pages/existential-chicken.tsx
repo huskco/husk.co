@@ -47,6 +47,11 @@ const ExistentialChickenPage = () => (
               It is not a game about chickens.
             </p>
 
+            <p className="text-pretty text-stone-600 mt-4">
+              <span className="font-semibold text-stone-700">Perfect for</span> dinner parties, date nights,
+              road trips, and anyone who likes a good debate.
+            </p>
+
             <div className="flex flex-wrap gap-2 mt-4">
               <Badge>Ages 12+</Badge>
               <Badge>20 mins</Badge>
@@ -190,7 +195,7 @@ const ExistentialChickenPage = () => (
             <ChevronDownIcon className="size-5 text-stone-500 group-data-[hover]:text-stone-500 group-data-[open]:rotate-180" />
           </DisclosureButton>
           <DisclosurePanel className="text-sm text-stone-700 mt-2">
-            Some of these answers could get into religion and ideology, so it may be wise to keep it professional and choose another game.
+            That depends on your coworkers. Some questions touch on religion, morality, and politics, so it plays best with people you're comfortable disagreeing with.
           </DisclosurePanel>
         </Disclosure>
 
