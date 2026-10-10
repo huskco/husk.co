@@ -40,10 +40,19 @@ const ExistentialChickenPage = () => (
             Existential Chicken
           </h1>
 
+          <p className="text-xl md:text-2xl font-serif italic text-stone-600 mt-1 mb-4">
+            Speedrun your friends' worldviews.
+          </p>
+
           <div className="text-sm md:text-lg">
             <p className="text-pretty">
-              Explore philosophy's toughest questions about the nature of the world and what really matters
-              with this conversation game and maybe a little bit of wine (in vino veritas, after all).
+              Each card asks one of philosophy's biggest questions, and your answer has to last at least a minute.
+              No yes-or-no answers allowed.
+              There's no right answer, but a thoughtful one wins you a point.
+              But watch out, these questions have a way of getting to people.
+              When someone trails off mid-sentence with a quiet "whoa…", they've cracked!
+              It's the fastest way we know to find out what someone actually believes,
+              and it works as well for philosophy majors as for people who have never read a word of Plato.
               It is not a game about chickens.
             </p>
 
@@ -202,15 +211,28 @@ const ExistentialChickenPage = () => (
         <Disclosure as="div" className="p-6" defaultOpen={false}>
           <DisclosureButton className="group flex w-full justify-between">
             <span className="text-stone-700 md:text-xl font-serif text-left">
-            What's with the chicken?
+              Why "Existential Chicken"?
+            </span>
+            <ChevronDownIcon className="size-5 text-stone-500 group-data-[hover]:text-stone-500 group-data-[open]:rotate-180" />
+          </DisclosureButton>
+          <DisclosurePanel className="text-sm text-stone-700 mt-2">
+            In a game of chicken, players dare each other to go further without backing down.
+            Here, the dare is a question.
+            We'd be lying if we said the name didn't come to us after a few edibles.
+          </DisclosurePanel>
+        </Disclosure>
+
+        <Disclosure as="div" className="p-6" defaultOpen={false}>
+          <DisclosureButton className="group flex w-full justify-between">
+            <span className="text-stone-700 md:text-xl font-serif text-left">
+              Why the chicken logo, then?
             </span>
             <ChevronDownIcon className="size-5 text-stone-500 group-data-[hover]:text-stone-500 group-data-[open]:rotate-180" />
           </DisclosureButton>
           <DisclosurePanel className="text-sm text-stone-700 mt-2">
             <p className="mb-4">
-              When coming up with ideas for this game, the game of "chicken" kept coming up and so we got to work on a chicken logo that we ended up loving.
-              But then we turned it upside down.
-              What was a traumatized chicken became a friendly scarecrow!
+              The name came first, so naturally we drew a chicken.
+              Then we turned it upside down, and what was a traumatized chicken became a friendly scarecrow!
             </p>
             <p className="mb-4">
               They needed names.
