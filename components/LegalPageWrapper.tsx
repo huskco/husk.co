@@ -32,7 +32,7 @@ const LegalPageWrapper = ({ children }: LegalPageWrapperProps) => {
                 <Link
                   key={tab.name}
                   href={`/legal/${tab.slug}`}
-                  className={`relative z-10 px-4 py-1.5 rounded-full text-sm font-medium focus:outline-none text-stone-500 hover:text-stone-700 ${
+                  className={`relative z-10 px-4 py-1.5 rounded-full text-sm font-medium focus:outline-hidden text-stone-500 hover:text-stone-700 ${
                     currentSlug === tab.slug ? 'text-black bg-stone-300' : ''
                   }`}
                 >
