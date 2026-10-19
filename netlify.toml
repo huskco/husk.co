@@ -12,3 +12,28 @@
 [[plugins]]
   # Essential Next.js plugin for Netlify
   package = "@netlify/plugin-nextjs"
+
+# existentialchicken.com is an alias of this site; send it to the product page
+[[redirects]]
+  from = "https://existentialchicken.com/*"
+  to = "https://husk.co/existential-chicken"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.existentialchicken.com/*"
+  to = "https://husk.co/existential-chicken"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://existentialchicken.com/*"
+  to = "https://husk.co/existential-chicken"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.existentialchicken.com/*"
+  to = "https://husk.co/existential-chicken"
+  status = 301
+  force = true
