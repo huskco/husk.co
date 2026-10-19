@@ -11,7 +11,7 @@ const Glass = ({ children, className }: Props) => {
       border border-t-white/50 border-b-black/15 border-l-black/10 border-r-black/10
       rounded-xl
       p-1
-      shadow-sm hover:shadow-lg
+      shadow-xs hover:shadow-lg
       transition-all duration-300
       relative
       overflow-hidden

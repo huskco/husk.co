@@ -12,7 +12,7 @@ const BuyButton = ({ className = '' }: Props) => (
       href={checkoutUrl}
       className="flex flex-wrap items-center gap-2 md:gap-4"
     >
-      <span className="block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-sm text-nowrap text-base md:text-lg transition-colors">
+      <span className="block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-xs text-nowrap text-base md:text-lg transition-colors">
         Buy Now
       </span>
 

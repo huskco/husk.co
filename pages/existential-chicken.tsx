@@ -174,7 +174,7 @@ const ExistentialChickenPage = () => (
             <span className="text-stone-700 md:text-xl font-serif text-left">
               Do I need a philosophy degree to play this game?
             </span>
-            <ChevronDownIcon className="size-5 text-stone-500 group-data-[hover]:text-stone-500 group-data-[open]:rotate-180" />
+            <ChevronDownIcon className="size-5 text-stone-500 group-data-hover:text-stone-500 group-data-open:rotate-180" />
           </DisclosureButton>
           <DisclosurePanel className="text-sm text-stone-700 mt-2">
             You already have the only qualification you need: <em>you exist! </em>
@@ -189,7 +189,7 @@ const ExistentialChickenPage = () => (
             <span className="text-stone-700 md:text-xl font-serif text-left">
               Who are the statues?
             </span>
-            <ChevronDownIcon className="size-5 text-stone-500 group-data-[hover]:text-stone-500 group-data-[open]:rotate-180" />
+            <ChevronDownIcon className="size-5 text-stone-500 group-data-hover:text-stone-500 group-data-open:rotate-180" />
           </DisclosureButton>
           <DisclosurePanel className="text-sm text-stone-700 mt-2">
             They are based off some of our favorite philosophers: Socrates, Hypatia, Hipparchia, Nietzsche, and Jean-Paul Sartre.
@@ -201,7 +201,7 @@ const ExistentialChickenPage = () => (
             <span className="text-stone-700 md:text-xl font-serif text-left">
               Should I play this game with my coworkers?
             </span>
-            <ChevronDownIcon className="size-5 text-stone-500 group-data-[hover]:text-stone-500 group-data-[open]:rotate-180" />
+            <ChevronDownIcon className="size-5 text-stone-500 group-data-hover:text-stone-500 group-data-open:rotate-180" />
           </DisclosureButton>
           <DisclosurePanel className="text-sm text-stone-700 mt-2">
             That depends on your coworkers. Some questions touch on religion, morality, and politics, so it plays best with people you're comfortable disagreeing with.
@@ -213,7 +213,7 @@ const ExistentialChickenPage = () => (
             <span className="text-stone-700 md:text-xl font-serif text-left">
               Why "Existential Chicken"?
             </span>
-            <ChevronDownIcon className="size-5 text-stone-500 group-data-[hover]:text-stone-500 group-data-[open]:rotate-180" />
+            <ChevronDownIcon className="size-5 text-stone-500 group-data-hover:text-stone-500 group-data-open:rotate-180" />
           </DisclosureButton>
           <DisclosurePanel className="text-sm text-stone-700 mt-2">
             In a game of chicken, players dare each other to go further without backing down.
@@ -227,7 +227,7 @@ const ExistentialChickenPage = () => (
             <span className="text-stone-700 md:text-xl font-serif text-left">
               Why the chicken logo, then?
             </span>
-            <ChevronDownIcon className="size-5 text-stone-500 group-data-[hover]:text-stone-500 group-data-[open]:rotate-180" />
+            <ChevronDownIcon className="size-5 text-stone-500 group-data-hover:text-stone-500 group-data-open:rotate-180" />
           </DisclosureButton>
           <DisclosurePanel className="text-sm text-stone-700 mt-2">
             <p className="mb-4">
