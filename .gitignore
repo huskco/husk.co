@@ -40,3 +40,6 @@ next-env.d.ts
 
 # brainstorming mockups
 .superpowers/
+
+# Playwright MCP browser screenshots and logs
+.playwright-mcp/
