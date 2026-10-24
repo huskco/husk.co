@@ -119,12 +119,12 @@ const ExistentialChickenPage = () => (
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
         <div className="flex justify-center items-center">
           <Image
-            src="/existential-chicken-box.png"
-            width="400"
-            height="400"
+            src="/existential-chicken-box-photo.jpg"
+            width={1180}
+            height={1180}
             sizes="(min-width: 640px) 400px, 80vw"
-            alt="The Existential Chicken box with question cards fanned out behind it"
-            className="w-4/5 sm:w-auto"
+            alt="The Existential Chicken box and deck beside a question card on carved stone"
+            className="w-4/5 sm:w-[400px] rounded-2xl"
           />
         </div>
         <div className="text-sm">
@@ -253,12 +253,12 @@ const ExistentialChickenPage = () => (
     <Section>
       <Area backgroundColor="bg-white" className="flex flex-col sm:flex-row items-center gap-8 p-8 md:p-12">
         <Image
-          src="/existential-chicken-box.png"
-          width="400"
-          height="400"
+          src="/existential-chicken-box-photo.jpg"
+          width={1180}
+          height={1180}
           sizes="(min-width: 640px) 280px, 60vw"
-          alt="Existential Chicken box"
-          className="w-3/5 sm:w-1/3 shrink-0"
+          alt="The Existential Chicken box and deck beside a question card on carved stone"
+          className="w-3/5 sm:w-1/3 shrink-0 rounded-xl"
         />
         <div className="flex flex-col gap-4">
           <h2 className="text-3xl font-serif text-stone-800">
