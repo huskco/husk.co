@@ -27,13 +27,13 @@ const IndexPage = () => (
 
         <Link className='w-full md:w-1/2' href='/existential-chicken'>
           <Image
-            src="/existential-chicken-box.png"
-            width={1200}
-            height={1200}
+            src="/existential-chicken-box-photo.jpg"
+            width={1180}
+            height={1180}
             sizes="(min-width: 768px) 50vw, 100vw"
             preload
-            alt='Existential Chicken box'
-            className='aspect-square object-cover'
+            alt='The Existential Chicken box and deck beside a question card on carved stone'
+            className='aspect-square object-cover rounded-2xl'
           />
         </Link>
       </div>
